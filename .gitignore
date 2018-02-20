@@ -76,3 +76,5 @@ Libs/Collision_Debug_x64.lib
 Libs/Audio_Release.lib
 _Working Build/Retail/Launcher_Retail_x64.lib
 _Working Build/Release/TClient_Release.exe
+*.cso
+Libs/Collision_Release_x64.lib
