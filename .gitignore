@@ -63,3 +63,16 @@ CorgiEngine/x64/Debug/TShared_Debug.lib
 CorgiEngine/x64/Debug/TServer_Debug.exe
 CorgiEngine/x64/Debug/TClient_Debug.exe
 *.cso
+Libs/TClient_Release_x64.lib
+Libs/TShared_Release_x64.lib
+Libs/Utilities_Release_x64.lib
+Libs/Script_Release_x64.lib
+Libs/Game_Release_x64.lib
+Libs/Engine_Release_x64.lib
+Libs/DirectXTK_Desktop_2015_Release_x64.lib
+Libs/Component_Release_x64.lib
+Libs/Console_Release_x64.lib
+Libs/Collision_Debug_x64.lib
+Libs/Audio_Release.lib
+_Working Build/Retail/Launcher_Retail_x64.lib
+_Working Build/Release/TClient_Release.exe
