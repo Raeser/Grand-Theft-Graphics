@@ -1,0 +1,16 @@
+﻿  stdafx.cpp
+  c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+cl : Command line warning D9030: '/Gm' is incompatible with multiprocessing; ignoring /MP switch
+  Timer.cpp
+  RenderCommand.cpp
+  PlaneCollider.cpp
+  InputManager.cpp
+  Gamepad.cpp
+  FileDialog.cpp
+  DirectoryCommands.cpp
+  CorgiMath.cpp
+  ConnectedBool.cpp
+  CommandLineManager.cpp
+  Base64.cpp
+  Generating Code...
+  Utilities.vcxproj -> C:\Users\robin.widegren\Desktop\Labb 2\Labb 2\Solution\Application\..\Lib\Utilities_Debug_Win32.lib

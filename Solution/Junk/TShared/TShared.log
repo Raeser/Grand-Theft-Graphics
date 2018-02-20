@@ -1,0 +1,9 @@
+﻿  stdafx.cpp
+  Shared_NetworkManager.cpp
+  NetMessage_Connect.cpp
+  NetMessageConfirmation.cpp
+  NetMessageChatMessage.cpp
+  NetMessage.cpp
+c:\users\robin.widegren\desktop\labb 2\labb 2\solution\tshared\netmessage.cpp(28): warning C4002: too many actual parameters for macro 'assert'
+  Generating Code...
+  TShared.vcxproj -> C:\Users\robin.widegren\Desktop\Labb 2\Labb 2\Solution\TShared\..\Lib\TShared_Debug.lib
