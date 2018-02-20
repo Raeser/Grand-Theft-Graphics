@@ -1,0 +1,57 @@
+{
+	"Intro": 
+	{
+		"WwiseEvents": [
+		{
+			"string": "Play_Intro_Song"
+		}
+		],
+		"Slides": [
+			{
+				"Sprite": "../Assets/Sprites/Intro/introSlide1.dds",
+				"TimeToShow": 10.0
+			},
+			{
+				"Sprite": "../Assets/Sprites/Intro/introSlide2.dds",
+				"TimeToShow": 10.0
+			},
+			{
+				"Sprite": "../Assets/Sprites/Intro/introSlide3.dds",
+				"TimeToShow": 12.5
+			}
+		]
+	},
+	"Outro": 
+	{
+		"WwiseEvents": [
+		{
+			"string": "Play_Outro_Song"
+		}
+		],
+		"Slides": [
+			{
+				"Sprite": "../Assets/Sprites/Outro/outroSlide1.dds",
+				"TimeToShow": 7.5
+			},
+			{
+				"Sprite": "../Assets/Sprites/Menus/creditsBackground.dds",
+				"TimeToShow": 10.0
+			}
+		]
+	},
+	"Credits": 
+	{
+		"WwiseEvents": [
+		{
+			"string": "Nathing"
+		}
+		],
+		"Slides": [
+			{
+				"Sprite": "../Assets/Sprites/Menus/creditsBackground.dds",
+				"TimeToShow": 7.5
+			}
+		]
+	}
+    
+}

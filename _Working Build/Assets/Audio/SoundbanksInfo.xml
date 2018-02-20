@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>C:\Users\sebastian.fransson\Documents\Visual Studio 2015\Projects\Valiant Corgi\WWise Project\Valiant Corgi - Game 2\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\sebastian.fransson\Documents\Visual Studio 2015\Projects\Valiant Corgi\WWise Project\Valiant Corgi - Game 2\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\sebastian.fransson\Documents\Visual Studio 2015\Projects\Valiant Corgi\SP\_Working Build\Assets\Audio\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\sebastian.fransson\Documents\Visual Studio 2015\Projects\Valiant Corgi\WWise Project\Valiant Corgi - Game 2\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3430733157" Name="Pause_SFX"/>
+				<Event Id="1149159311" Name="Play_Button_Click"/>
+				<Event Id="3271638344" Name="Play_Button_Hovored"/>
+				<Event Id="3355154173" Name="Play_Confirmation"/>
+				<Event Id="3015324718" Name="Play_Fire"/>
+				<Event Id="3396624776" Name="Play_Follow_Start"/>
+				<Event Id="1602358412" Name="Play_Footstep"/>
+				<Event Id="811708576" Name="Play_Forest_Ambience"/>
+				<Event Id="2560417293" Name="Play_Game_Loop"/>
+				<Event Id="1269639012" Name="Play_Intro_Song"/>
+				<Event Id="3738477218" Name="Play_Menu_Ambience"/>
+				<Event Id="1120539161" Name="Play_Menu_Song"/>
+				<Event Id="1149416885" Name="Play_Outro_Song"/>
+				<Event Id="2825395259" Name="Play_Player_Walk"/>
+				<Event Id="1498169336" Name="Play_River"/>
+				<Event Id="1306435193" Name="Play_Slider"/>
+				<Event Id="131589790" Name="Play_Stone_Grind"/>
+				<Event Id="1977644338" Name="Play_Throw"/>
+				<Event Id="1432333832" Name="Play_Tiki_Death"/>
+				<Event Id="584874593" Name="Play_Tiki_Fly"/>
+				<Event Id="558487958" Name="Play_Tiki_Jump"/>
+				<Event Id="1570866151" Name="Play_Tiki_Kicked"/>
+				<Event Id="2879649505" Name="Play_Tiki_Land"/>
+				<Event Id="1892918203" Name="Play_Tiki_Spots_Player"/>
+				<Event Id="1700605603" Name="Play_Waves_Ambience"/>
+				<Event Id="2541567472" Name="Play_Whisper"/>
+				<Event Id="2693257580" Name="Play_Whistle"/>
+				<Event Id="4118937608" Name="Resume_SFX"/>
+				<Event Id="2297295732" Name="Stop_Cutscene_Music"/>
+				<Event Id="2989050186" Name="Stop_Forest_Ambience"/>
+				<Event Id="1298030391" Name="Stop_Game_Loop"/>
+				<Event Id="3681675760" Name="Stop_Menu_Ambience"/>
+				<Event Id="987064643" Name="Stop_Menu_Song"/>
+				<Event Id="2837384057" Name="Stop_Music"/>
+				<Event Id="287728669" Name="Stop_SFX"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="8469918" Language="SFX">
+					<ShortName>extra whispers.wav</ShortName>
+					<Path>SFX\extra whispers_56D15494.wem</Path>
+				</File>
+				<File Id="32275095" Language="SFX">
+					<ShortName>wood_block_sticks_hit_clap_11.wav</ShortName>
+					<Path>SFX\wood_block_sticks_hit_clap_11_E843A46D.wem</Path>
+				</File>
+				<File Id="44699848" Language="SFX">
+					<ShortName>whistle.wav</ShortName>
+					<Path>SFX\whistle_15A3E740.wem</Path>
+				</File>
+				<File Id="84857904" Language="SFX">
+					<ShortName>MOAR WHISPERS.wav</ShortName>
+					<Path>SFX\MOAR WHISPERS_8E20F878.wem</Path>
+				</File>
+				<File Id="96208364" Language="SFX">
+					<ShortName>Infados.wav</ShortName>
+					<Path>SFX\Infados_F29F7F36.wem</Path>
+				</File>
+				<File Id="100004930" Language="SFX">
+					<ShortName>dathScrems.wav</ShortName>
+					<Path>SFX\dathScrems_4A920D11.wem</Path>
+				</File>
+				<File Id="107346287" Language="SFX">
+					<ShortName>Seq 2.1 Hit #3 96 HK1.wav</ShortName>
+					<Path>SFX\Seq 2.1 Hit #3 96 HK1_10741EC9.wem</Path>
+				</File>
+				<File Id="110783047" Language="SFX">
+					<ShortName>footstep_dirt_walk_run_08.wav</ShortName>
+					<Path>SFX\footstep_dirt_walk_run_08_E843A46D.wem</Path>
+				</File>
+				<File Id="114377891" Language="SFX">
+					<ShortName>pickedUp.wav</ShortName>
+					<Path>SFX\pickedUp_36B8D44A.wem</Path>
+				</File>
+				<File Id="137451578" Language="SFX">
+					<ShortName>whistle.wav</ShortName>
+					<Path>SFX\whistle_D760EC99.wem</Path>
+				</File>
+				<File Id="164912496" Language="SFX">
+					<ShortName>deathyBoies.wav</ShortName>
+					<Path>SFX\deathyBoies_EB4BD019.wem</Path>
+				</File>
+				<File Id="167678446" Language="SFX">
+					<ShortName>data är bara data.wav</ShortName>
+					<Path>SFX\data är bara data_489DEEB3.wem</Path>
+				</File>
+				<File Id="181049994" Language="SFX">
+					<ShortName>Accralate.wav</ShortName>
+					<Path>SFX\Accralate_E843A46D.wem</Path>
+				</File>
+				<File Id="189849808" Language="SFX">
+					<ShortName>whispers.wav</ShortName>
+					<Path>SFX\whispers_91945D70.wem</Path>
+				</File>
+				<File Id="211792450" Language="SFX">
+					<ShortName>flying.wav</ShortName>
+					<Path>SFX\flying_CF38AD9F.wem</Path>
+				</File>
+				<File Id="217609156" Language="SFX">
+					<ShortName>wood_block_sticks_hit_clap_rattle_06.wav</ShortName>
+					<Path>SFX\wood_block_sticks_hit_clap_rattle_06_E843A46D.wem</Path>
+				</File>
+				<File Id="225189482" Language="SFX">
+					<ShortName>throwConfirmation.wav</ShortName>
+					<Path>SFX\throwConfirmation_38FC1A24.wem</Path>
+				</File>
+				<File Id="231756178" Language="SFX">
+					<ShortName>throwConfirmation.wav</ShortName>
+					<Path>SFX\throwConfirmation_3E4706E4.wem</Path>
+				</File>
+				<File Id="242909755" Language="SFX">
+					<ShortName>whispers.wav</ShortName>
+					<Path>SFX\whispers_8290E60B.wem</Path>
+				</File>
+				<File Id="261308999" Language="SFX">
+					<ShortName>music_comedy_quirky_fun_knockout.wav</ShortName>
+					<Path>SFX\music_comedy_quirky_fun_knockout_22663DD0.wem</Path>
+				</File>
+				<File Id="273730631" Language="SFX">
+					<ShortName>kickingPlayer.wav</ShortName>
+					<Path>SFX\kickingPlayer_2DBCBEA7.wem</Path>
+				</File>
+				<File Id="275139075" Language="SFX">
+					<ShortName>data är bara data.wav</ShortName>
+					<Path>SFX\data är bara data_7DD68C0C.wem</Path>
+				</File>
+				<File Id="275578041" Language="SFX">
+					<ShortName>data är bara data.wav</ShortName>
+					<Path>SFX\data är bara data_42CE2932.wem</Path>
+				</File>
+				<File Id="292259985" Language="SFX">
+					<ShortName>seesplayer.wav</ShortName>
+					<Path>SFX\seesplayer_1FD85470.wem</Path>
+				</File>
+				<File Id="312380772" Language="SFX">
+					<ShortName>seesplayer.wav</ShortName>
+					<Path>SFX\seesplayer_21F080FD.wem</Path>
+				</File>
+				<File Id="347622316" Language="SFX">
+					<ShortName>seesplayer.wav</ShortName>
+					<Path>SFX\seesplayer_FBAE1024.wem</Path>
+				</File>
+				<File Id="349869478" Language="SFX">
+					<ShortName>MOAR WHISPERS.wav</ShortName>
+					<Path>SFX\MOAR WHISPERS_E7698533.wem</Path>
+				</File>
+				<File Id="350656088" Language="SFX">
+					<ShortName>WHISPERS TO INFINITY.wav</ShortName>
+					<Path>SFX\WHISPERS TO INFINITY_B6B987AF.wem</Path>
+				</File>
+				<File Id="355186511" Language="SFX">
+					<ShortName>whistle.wav</ShortName>
+					<Path>SFX\whistle_7FFDCCDB.wem</Path>
+				</File>
+				<File Id="357133349" Language="SFX">
+					<ShortName>dathScrems.wav</ShortName>
+					<Path>SFX\dathScrems_2E0C6BC4.wem</Path>
+				</File>
+				<File Id="361526807" Language="SFX">
+					<ShortName>kickingPlayer.wav</ShortName>
+					<Path>SFX\kickingPlayer_FADB6D21.wem</Path>
+				</File>
+				<File Id="380406825" Language="SFX">
+					<ShortName>pickedUp.wav</ShortName>
+					<Path>SFX\pickedUp_BC5A96A1.wem</Path>
+				</File>
+				<File Id="392888178" Language="SFX">
+					<ShortName>_UPRIGHT_CTRX_013_039_Chillin' At The Beach (No Melody).wav</ShortName>
+					<Path>SFX\_UPRIGHT_CTRX_013_039_Chillin' At The Beach (No Melody)_EE79F7FB.wem</Path>
+				</File>
+				<File Id="394436586" Language="SFX">
+					<ShortName>whispers.wav</ShortName>
+					<Path>SFX\whispers_56ADE2C7.wem</Path>
+				</File>
+				<File Id="398730702" Language="SFX">
+					<ShortName>kickingPlayer.wav</ShortName>
+					<Path>SFX\kickingPlayer_FB791CD0.wem</Path>
+				</File>
+				<File Id="403883367" Language="SFX">
+					<ShortName>more confirmations.wav</ShortName>
+					<Path>SFX\more confirmations_BC15BDB7.wem</Path>
+				</File>
+				<File Id="414482810" Language="SFX">
+					<ShortName>more confirmations.wav</ShortName>
+					<Path>SFX\more confirmations_619B7881.wem</Path>
+				</File>
+				<File Id="421098901" Language="SFX">
+					<ShortName>whispers.wav</ShortName>
+					<Path>SFX\whispers_054ABD7C.wem</Path>
+				</File>
+				<File Id="425865384" Language="SFX">
+					<ShortName>whistle.wav</ShortName>
+					<Path>SFX\whistle_10E1F059.wem</Path>
+				</File>
+				<File Id="434886873" Language="SFX">
+					<ShortName>pickedUp.wav</ShortName>
+					<Path>SFX\pickedUp_1C191188.wem</Path>
+				</File>
+				<File Id="445934816" Language="SFX">
+					<ShortName>data är bara data.wav</ShortName>
+					<Path>SFX\data är bara data_28322BD9.wem</Path>
+				</File>
+				<File Id="446789405" Language="SFX">
+					<ShortName>seesplayer.wav</ShortName>
+					<Path>SFX\seesplayer_EF221D91.wem</Path>
+				</File>
+				<File Id="474127946" Language="SFX">
+					<ShortName>seesplayer.wav</ShortName>
+					<Path>SFX\seesplayer_56AC9199.wem</Path>
+				</File>
+				<File Id="489830753" Language="SFX">
+					<ShortName>whistle.wav</ShortName>
+					<Path>SFX\whistle_B31DA1AD.wem</Path>
+				</File>
+				<File Id="508516380" Language="SFX">
+					<ShortName>more confirmations.wav</ShortName>
+					<Path>SFX\more confirmations_A758C43F.wem</Path>
+				</File>
+				<File Id="513457155" Language="SFX">
+					<ShortName>kickingPlayer.wav</ShortName>
+					<Path>SFX\kickingPlayer_6C0A2A7A.wem</Path>
+				</File>
+				<File Id="518523510" Language="SFX">
+					<ShortName>death.wav</ShortName>
+					<Path>SFX\death_0B99EA39.wem</Path>
+				</File>
+				<File Id="545097484" Language="SFX">
+					<ShortName>MOAR WHISPERS.wav</ShortName>
+					<Path>SFX\MOAR WHISPERS_CEE54F82.wem</Path>
+				</File>
+				<File Id="572170516" Language="SFX">
+					<ShortName>kickingPlayer.wav</ShortName>
+					<Path>SFX\kickingPlayer_9353AA11.wem</Path>
+				</File>
+				<File Id="583846059" Language="SFX">
+					<ShortName>landing.wav</ShortName>
+					<Path>SFX\landing_9E0C6200.wem</Path>
+				</File>
+				<File Id="594960831" Language="SFX">
+					<ShortName>seesplayer.wav</ShortName>
+					<Path>SFX\seesplayer_0E041924.wem</Path>
+				</File>
+				<File Id="596729636" Language="SFX">
+					<ShortName>death.wav</ShortName>
+					<Path>SFX\death_B917066C.wem</Path>
+				</File>
+				<File Id="607958472" Language="SFX">
+					<ShortName>footstep_dirt_walk_run_09.wav</ShortName>
+					<Path>SFX\footstep_dirt_walk_run_09_E843A46D.wem</Path>
+				</File>
+				<File Id="614292787" Language="SFX">
+					<ShortName>whistle.wav</ShortName>
+					<Path>SFX\whistle_5A86E291.wem</Path>
+				</File>
+				<File Id="621608769" Language="SFX">
+					<ShortName>extra wispers vol.2 final.wav</ShortName>
+					<Path>SFX\extra wispers vol.2 final_81776199.wem</Path>
+				</File>
+				<File Id="623305842" Language="SFX">
+					<ShortName>whistle.wav</ShortName>
+					<Path>SFX\whistle_83FE5EDB.wem</Path>
+				</File>
+				<File Id="626991050" Language="SFX">
+					<ShortName>landing.wav</ShortName>
+					<Path>SFX\landing_3FA39BE2.wem</Path>
+				</File>
+				<File Id="635623617" Language="SFX">
+					<ShortName>dathScrems.wav</ShortName>
+					<Path>SFX\dathScrems_4FADA7D3.wem</Path>
+				</File>
+				<File Id="637533660" Language="SFX">
+					<ShortName>deathyBoies.wav</ShortName>
+					<Path>SFX\deathyBoies_C90F0CAB.wem</Path>
+				</File>
+				<File Id="637865837" Language="SFX">
+					<ShortName>Forest Ambience 1.wav</ShortName>
+					<Path>SFX\Forest Ambience 1_6563C2B5.wem</Path>
+				</File>
+				<File Id="639667674" Language="SFX">
+					<ShortName>DEWEY.wav</ShortName>
+					<Path>SFX\DEWEY_D9922D9A.wem</Path>
+				</File>
+				<File Id="642154756" Language="SFX">
+					<ShortName>dathScrems.wav</ShortName>
+					<Path>SFX\dathScrems_20268672.wem</Path>
+				</File>
+				<File Id="643574656" Language="SFX">
+					<ShortName>punch_general_body_impact_02.wav</ShortName>
+					<Path>SFX\punch_general_body_impact_02_E843A46D.wem</Path>
+				</File>
+				<File Id="652664502" Language="SFX">
+					<ShortName>whispers.wav</ShortName>
+					<Path>SFX\whispers_14D8F963.wem</Path>
+				</File>
+				<File Id="701112679" Language="SFX">
+					<ShortName>kickingPlayer.wav</ShortName>
+					<Path>SFX\kickingPlayer_B0FE8DE8.wem</Path>
+				</File>
+				<File Id="701585619" Language="SFX">
+					<ShortName>Digya.wav</ShortName>
+					<Path>SFX\Digya_A34FA1BF.wem</Path>
+				</File>
+				<File Id="713078505" Language="SFX">
+					<ShortName>whispers.wav</ShortName>
+					<Path>SFX\whispers_6AFA806E.wem</Path>
+				</File>
+				<File Id="718892100" Language="SFX">
+					<ShortName>river_stream_flowing_water_loop_04_long_version.wav</ShortName>
+					<Path>SFX\river_stream_flowing_water_loop_04_long_version_EE79F7FB.wem</Path>
+				</File>
+				<File Id="725762653" Language="SFX">
+					<ShortName>whispers.wav</ShortName>
+					<Path>SFX\whispers_675EB4B8.wem</Path>
+				</File>
+				<File Id="730110649" Language="SFX">
+					<ShortName>punch_general_body_impact_01.wav</ShortName>
+					<Path>SFX\punch_general_body_impact_01_E843A46D.wem</Path>
+				</File>
+				<File Id="730870380" Language="SFX">
+					<ShortName>more confirmations.wav</ShortName>
+					<Path>SFX\more confirmations_ABFE1843.wem</Path>
+				</File>
+				<File Id="744269338" Language="SFX">
+					<ShortName>seesplayer.wav</ShortName>
+					<Path>SFX\seesplayer_950E6E99.wem</Path>
+				</File>
+				<File Id="751069510" Language="SFX">
+					<ShortName>punch_general_body_impact_04.wav</ShortName>
+					<Path>SFX\punch_general_body_impact_04_E843A46D.wem</Path>
+				</File>
+				<File Id="752024904" Language="SFX">
+					<ShortName>deathyBoies.wav</ShortName>
+					<Path>SFX\deathyBoies_944ECF82.wem</Path>
+				</File>
+				<File Id="764279042" Language="SFX">
+					<ShortName>beach_waves_ocean_calm_loop_01_long_version.WAV</ShortName>
+					<Path>SFX\beach_waves_ocean_calm_loop_01_long_version_B37C7F20.wem</Path>
+				</File>
+				<File Id="771253924" Language="SFX">
+					<ShortName>Savannah Sketch.wav</ShortName>
+					<Path>SFX\Savannah Sketch_B9B6E7A6.wem</Path>
+				</File>
+				<File Id="771734624" Language="SFX">
+					<ShortName>ralle_hello.wav</ShortName>
+					<Path>SFX\ralle_hello_00A4594A.wem</Path>
+				</File>
+				<File Id="794244579" Language="SFX">
+					<ShortName>wood_block_sticks_hit_clap_12.wav</ShortName>
+					<Path>SFX\wood_block_sticks_hit_clap_12_E843A46D.wem</Path>
+				</File>
+				<File Id="796232908" Language="SFX">
+					<ShortName>grinding.wav</ShortName>
+					<Path>SFX\grinding_F3C30167.wem</Path>
+				</File>
+				<File Id="805692793" Language="SFX">
+					<ShortName>extra whispers.wav</ShortName>
+					<Path>SFX\extra whispers_23A0387C.wem</Path>
+				</File>
+				<File Id="807488612" Language="SFX">
+					<ShortName>landing.wav</ShortName>
+					<Path>SFX\landing_3854004F.wem</Path>
+				</File>
+				<File Id="827538272" Language="SFX">
+					<ShortName>extra wispers vol.2 final.wav</ShortName>
+					<Path>SFX\extra wispers vol.2 final_7793E136.wem</Path>
+				</File>
+				<File Id="833206621" Language="SFX">
+					<ShortName>more confirmations.wav</ShortName>
+					<Path>SFX\more confirmations_5C5996B9.wem</Path>
+				</File>
+				<File Id="838935306" Language="SFX">
+					<ShortName>kickingPlayer.wav</ShortName>
+					<Path>SFX\kickingPlayer_4060699C.wem</Path>
+				</File>
+				<File Id="843137321" Language="SFX">
+					<ShortName>beach_waves_seaguls_01.WAV</ShortName>
+					<Path>SFX\beach_waves_seaguls_01_EE79F7FB.wem</Path>
+				</File>
+				<File Id="853429818" Language="SFX">
+					<ShortName>kickingPlayer.wav</ShortName>
+					<Path>SFX\kickingPlayer_396DC862.wem</Path>
+				</File>
+				<File Id="862044011" Language="SFX">
+					<ShortName>data är bara data.wav</ShortName>
+					<Path>SFX\data är bara data_C6C8611D.wem</Path>
+				</File>
+				<File Id="864256307" Language="SFX">
+					<ShortName>kickingPlayer.wav</ShortName>
+					<Path>SFX\kickingPlayer_DC8AC28F.wem</Path>
+				</File>
+				<File Id="875900982" Language="SFX">
+					<ShortName>throwConfirmation.wav</ShortName>
+					<Path>SFX\throwConfirmation_CE69E0B6.wem</Path>
+				</File>
+				<File Id="884799567" Language="SFX">
+					<ShortName>landing.wav</ShortName>
+					<Path>SFX\landing_BB5C27FE.wem</Path>
+				</File>
+				<File Id="894609174" Language="SFX">
+					<ShortName>whispers.wav</ShortName>
+					<Path>SFX\whispers_598F7AA1.wem</Path>
+				</File>
+				<File Id="904631828" Language="SFX">
+					<ShortName>501275_The-Thrill-Of-The-Hunt.wav</ShortName>
+					<Path>SFX\501275_The-Thrill-Of-The-Hunt_28DB380D.wem</Path>
+				</File>
+				<File Id="914679225" Language="SFX">
+					<ShortName>WHISPERS TO INFINITY.wav</ShortName>
+					<Path>SFX\WHISPERS TO INFINITY_1F75CAE1.wem</Path>
+				</File>
+				<File Id="917824024" Language="SFX">
+					<ShortName>death.wav</ShortName>
+					<Path>SFX\death_7B4270B2.wem</Path>
+				</File>
+				<File Id="919110980" Language="SFX">
+					<ShortName>flying.wav</ShortName>
+					<Path>SFX\flying_F30C2D9D.wem</Path>
+				</File>
+				<File Id="923381136" Language="SFX">
+					<ShortName>MOAR WHISPERS.wav</ShortName>
+					<Path>SFX\MOAR WHISPERS_4777ED97.wem</Path>
+				</File>
+				<File Id="930544619" Language="SFX">
+					<ShortName>WHISPERS TO INFINITY.wav</ShortName>
+					<Path>SFX\WHISPERS TO INFINITY_66ACF1FD.wem</Path>
+				</File>
+				<File Id="931568680" Language="SFX">
+					<ShortName>seePlayer.wav</ShortName>
+					<Path>SFX\seePlayer_E3DAA28F.wem</Path>
+				</File>
+				<File Id="943325678" Language="SFX">
+					<ShortName>footstep_dirt_walk_run_10.wav</ShortName>
+					<Path>SFX\footstep_dirt_walk_run_10_E843A46D.wem</Path>
+				</File>
+				<File Id="994398891" Language="SFX">
+					<ShortName>punch_general_body_impact_05.wav</ShortName>
+					<Path>SFX\punch_general_body_impact_05_E843A46D.wem</Path>
+				</File>
+				<File Id="1053258778" Language="SFX">
+					<ShortName>punch_general_body_impact_03.wav</ShortName>
+					<Path>SFX\punch_general_body_impact_03_E843A46D.wem</Path>
+				</File>
+				<File Id="1057571441" Language="SFX">
+					<ShortName>pickedUp.wav</ShortName>
+					<Path>SFX\pickedUp_B371B3AA.wem</Path>
+				</File>
+				<File Id="1057813504" Language="SFX">
+					<ShortName>cartoon_boing_jump_13.wav</ShortName>
+					<Path>SFX\cartoon_boing_jump_13_E843A46D.wem</Path>
+				</File>
+				<File Id="1069170948" Language="SFX">
+					<ShortName>more confirmations.wav</ShortName>
+					<Path>SFX\more confirmations_EFFA3177.wem</Path>
+				</File>
+				<File Id="1072619235" Language="SFX">
+					<ShortName>fire_burning_flames_crackle_loop_01.wav</ShortName>
+					<Path>SFX\fire_burning_flames_crackle_loop_01_E843A46D.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

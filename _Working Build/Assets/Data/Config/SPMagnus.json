@@ -1,0 +1,12 @@
+{
+  "Data": [
+    {
+      "LevelsToLoad": [
+        "MagnusTest.json",
+        "TutorialLevel.json",
+        "JonasLevel.json",
+        "AnnettesLevel.json"
+      ]
+    }
+  ]
+}

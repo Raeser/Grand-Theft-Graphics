@@ -1,0 +1,26 @@
+{
+    "JsonDocument": [
+        {
+            "ObjectData": [],
+            "MovableObjectData": [],
+            "TriggerData": [],
+            "ParticleEmittorData": [
+                {
+                    "particleEmittor": "Fire.ps",
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 5.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                }
+            ],
+            "PointLightData": [],
+            "SpotLightData": []
+        }
+    ]
+}

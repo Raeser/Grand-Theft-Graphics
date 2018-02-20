@@ -1,0 +1,20 @@
+{
+    "JsonDocument": [
+        {
+            "ObjectData": [],
+            "TriggerData": [
+                {
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 10.0
+                    },
+                    "radius": 5.369999885559082,
+                    "myLuaFile": "Win.lua"
+                }
+            ],
+            "PointLightData": [],
+            "SpotLightData": []
+        }
+    ]
+}

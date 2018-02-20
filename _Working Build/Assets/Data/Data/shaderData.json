@@ -1,0 +1,60 @@
+{
+  "Data": [
+    {
+      "fbx": "../Assets/Models/playerCharacter/playerCharacter.fbx",
+      "psShader": "../Assets/Shaders/PS_DEFModelAnimatedDefault.hlsl",
+      "vsShader": "../Assets/Shaders/VS_DEFModelAnimatedDefault.hlsl"
+    },
+	{
+	"fbx" : "../assets/models/rivermesh_canyonpart/rivermesh_canyonpart.fbx",
+	"vsShader" : "../Assets/Shaders/VS_Water.hlsl",
+	"psShader" : "../Assets/Shaders/PS_Water.hlsl"
+	},
+    {
+      "fbx": "../assets/models/rivermesh_level3/rivermesh_level3.fbx",
+      "vsShader": "../Assets/Shaders/VS_Water.hlsl",
+      "psShader": "../Assets/Shaders/PS_Water_Level3.hlsl"
+    },
+	{
+	"fbx" : "../assets/models/Level3_Terrain/Level3_Terrain.fbx",
+	"vsShader" : "../Assets/Shaders/VS_DEFModelDefault.hlsl",
+	"psShader" : "../Assets/Shaders/PS_TerrainShader.hlsl"
+	},
+	{
+	"fbx" : "../assets/models/JonasLevel_Terrain01/JonasLevel_Terrain01.fbx",
+	"vsShader" : "../Assets/Shaders/VS_DEFModelDefault.hlsl",
+	"psShader" : "../Assets/Shaders/PS_TerrainShader.hlsl"
+	},
+	{
+	"fbx" : "../assets/models/TutorialLevel_Terrain_CanyonPart/TutorialLevel_Terrain_CanyonPart.fbx",
+	"vsShader" : "../Assets/Shaders/VS_DEFModelDefault.hlsl",
+	"psShader" : "../Assets/Shaders/PS_TerrainShader.hlsl"
+	},
+	{
+	"fbx" : "../assets/models/TutorialLevel_Terrain_VillagePart/TutorialLevel_Terrain_VillagePart.fbx",
+	"vsShader" : "../Assets/Shaders/VS_DEFModelDefault.hlsl",
+	"psShader" : "../Assets/Shaders/PS_TerrainShader.hlsl"
+	},
+	{
+	"fbx" : "../assets/models/TutorialLevel_Terrain01/TutorialLevel_Terrain01.fbx",
+	"vsShader" : "../Assets/Shaders/VS_DEFModelDefault.hlsl",
+	"psShader" : "../Assets/Shaders/PS_TerrainShader.hlsl"
+	},
+	{
+	"fbx" : "../assets/models/riverMesh_level2/riverMesh_level2.fbx",
+	"vsShader" : "../Assets/Shaders/VS_Water.hlsl",
+	"psShader" : "../Assets/Shaders/PS_Water.hlsl"
+	},
+    {
+      "fbx": "../assets/models/riverMesh_small_level3/riverMesh_small_level3.fbx",
+      "vsShader": "../Assets/Shaders/VS_Water.hlsl",
+      "psShader": "../Assets/Shaders/PS_Water_Level3.hlsl"
+    },
+	{
+	"fbx" : "../assets/models/riverMesh_VillagePart/riverMesh_VillagePart.fbx",
+	"vsShader" : "../Assets/Shaders/VS_Water.hlsl",
+	"psShader" : "../Assets/Shaders/PS_Water.hlsl"
+	}
+
+  ]
+}

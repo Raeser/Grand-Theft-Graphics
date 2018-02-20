@@ -1,0 +1,175 @@
+{
+    "Models": [
+        {
+            "FbxPath": "../assets/models/gate/gate.fbx",
+            "Animations": [
+                {
+                    "AnimationName": "GateOpen",
+                    "AnimationPath": "../assets/animations/gate/gate@gateopen.fbx"
+                },
+                {
+                    "AnimationName": "GateFall",
+                    "AnimationPath": "../assets/animations/gate/gate@gatefall.fbx"
+                }
+            ]
+        },
+        {
+            "FbxPath": "../assets/models/playercharacter/playercharacter.fbx",
+            "Animations": [
+                {
+                    "AnimationName": "PlayerIdle",
+                    "AnimationPath": "../assets/animations/playercharacter_geo@idle.fbx"
+                },
+                {
+                    "AnimationName": "PlayerKick",
+                    "AnimationPath": "../assets/animations/playercharacter@kick.fbx"
+                },
+                {
+                    "AnimationName": "PlayerRun",
+                    "AnimationPath": "../assets/animations/playercharacter@run.fbx"
+                },
+                {
+                    "AnimationName": "PlayerPossessedAroundY",
+                    "AnimationPath": "../assets/animations/playercharacter_geo/playercharacter_geo@headrotate.fbx"
+                },
+                {
+                    "AnimationName": "PlayerPossessedAroundX",
+                    "AnimationPath": "../assets/animations/playercharacter_geo/playercharacter_geo@headbackwardz.fbx"
+                },
+                {
+                    "AnimationName": "PlayerBridgeAnim",
+                    "AnimationPath": "../assets/animations/drawbridge@open.fbx"
+                }
+            ]
+        },
+        {
+            "FbxPath": "../assets/models/drawbridge/drawbridge.fbx",
+            "Animations": [
+                {
+                    "AnimationName": "BridgeOpen",
+                    "AnimationPath": "../assets/animations/drawbridge@open.fbx"
+                },
+                {
+                    "AnimationName": "BridgeOpen2",
+                    "AnimationPath": "../assets/animations/drawbridge@open2.fbx"
+                }
+            ]
+        },
+        {
+            "FbxPath": "../assets/models/cubes.fbx",
+            "Animations": [
+                {
+                    "AnimationName": "CubeTest",
+                    "AnimationPath": "../assets/cubes/cubes@splat.fbx"
+                }
+            ]
+        },
+        {
+            "FbxPath": "../assets/models/deadlyplant/deadlyplant.fbx",
+            "Animations": [
+                {
+                    "AnimationName": "DeadlyPlantSway",
+                    "AnimationPath": "../assets/animations/deadlyplant/deadlyplant@deaplyplantsway.fbx"
+                }
+            ]
+        },
+        {
+            "FbxPath": "../assets/models/flowersmall/flowersmall.fbx",
+            "Animations": [
+                {
+                    "AnimationName": "FlowerSmallSway",
+                    "AnimationPath": "../assets/animations/flowersmall/flowersmall@flowersmallsway.fbx"
+                }
+            ]
+        },
+        {
+            "FbxPath": "../assets/models/flowerlarge/flowerlarge.fbx",
+            "Animations": [
+                {
+                    "AnimationName": "FlowerLargeSway",
+                    "AnimationPath": "../assets/animations/flowerlarge/flowerlarge@largeflowersway.fbx"
+                }
+            ]
+        },
+        {
+            "FbxPath": "../assets/models/smallpalmtree/smallpalmtree.fbx",
+            "Animations": [
+                {
+                    "AnimationName": "SmallPalmSway",
+                    "AnimationPath": "../assets/animations/smallpalmtree/smallpalmtree@smallpalmsway.fbx"
+                }
+            ]
+        },
+        {
+            "FbxPath": "../assets/models/minioncharacter/minioncharacter.fbx",
+            "Animations": [
+                {
+                    "AnimationName": "MinionIdle",
+                    "AnimationPath": "../assets/animations/minioncharacter/minioncharacter@idle.fbx"
+                },
+                {
+                    "AnimationName": "MinionKick",
+                    "AnimationPath": "../assets/animations/minioncharacter/minioncharacter@kick.fbx"
+                },
+                {
+                    "AnimationName": "MinionRun",
+                    "AnimationPath": "../assets/animations/minioncharacter/minioncharacter@run.fbx"
+                }
+            ]
+        },
+        {
+            "FbxPath": "../assets/models/mediumpalmtree/mediumpalmtree.fbx",
+            "Animations": [
+                {
+                    "AnimationName": "MediumPalmSway",
+                    "AnimationPath": "../assets/animations/mediumpalmtree/mediumpalmtree@mediumpalmsway.fbx"
+                }
+            ]
+        },
+        {
+            "FbxPath": "../assets/models/bushmedium/bushmedium.fbx",
+            "Animations": [
+                {
+                    "AnimationName": "MediumBushSway",
+                    "AnimationPath": "../assets/animations/bushmedium/bushmedium@mediumbushsway.fbx"
+                }
+            ]
+        },
+        {
+            "FbxPath": "../assets/models/bushlarge/bushlarge.fbx",
+            "Animations": [
+                {
+                    "AnimationName": "LargeBushSway",
+                    "AnimationPath": "../assets/animations/bushlarge/bushlarge@bushlargesway.fbx"
+                }
+            ]
+        },
+        {
+            "FbxPath": "../assets/models/breakablewall/breakablewall_3.fbx",
+            "Animations": [
+                {
+                    "AnimationName": "BreakableWallBreak",
+                    "AnimationPath": "../assets/animations/breakablewall_3/breakablewall_3@break.fbx"
+                }
+            ]
+        },
+        {
+            "FbxPath": "../assets/models/mediumpalmtreepack/mediumpalmtreepack.fbx",
+            "Animations": [
+                {
+                    "AnimationName": "mediumPalmTreePackSway",
+                    "AnimationPath": "../assets/animations/mediumpalmtreepack/mediumpalmtreepack@clustersway.fbx"
+                }
+            ]
+        },
+        {
+            "FbxPath": "../assets/models/clickarrow/clickarrow.fbx",
+            "Animations": [
+                {
+                    "AnimationName": "OnClick",
+                    "AnimationPath": "../assets/animations/clickarrow/clickarrow@arrowthingy.fbx"
+                }
+            ]
+        }
+    ]
+}

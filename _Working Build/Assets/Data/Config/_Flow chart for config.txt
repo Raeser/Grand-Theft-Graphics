@@ -1,0 +1,6 @@
+When running exe file,
+use the following flag to get access to your config: 
+
+-user YOURNAME
+example: -user Axel
+

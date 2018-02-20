@@ -1,0 +1,10 @@
+{
+    "Settings": {
+        "volumeSFX": 100,
+        "volumeMusic": 100,
+        "fullscreen": true,
+        "aimSensitivity": 0.4116368591785431,
+        "maxSensitivity": 0.5,
+        "minSensitivity": 0.1
+    }
+}

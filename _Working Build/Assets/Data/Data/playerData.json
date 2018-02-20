@@ -1,0 +1,24 @@
+{
+  "Data": [
+    {
+      "playerSpeed": 7,
+      "tikminSpeed": 7.0,
+      "health": 100,
+      "_comment": "Detta endast för jonaslevel",
+      "position": {
+        "x": -8.0,
+        "y": 0.0,
+        "z": -153.0
+      },
+      "rotation": {
+        "x": 0.0,
+        "y": 0.0,
+        "z": 0.0
+      },
+      "clickIndicatorSpeed": 0.7,
+      "clickIndicatorStartHeight": 0.5,
+      "clickIndicatorEndHeight": -0.2,
+      "clickIndicatorLifeTime": 0.9
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+[13:50:26] [ResultMessages] [GameSettings] Current user : Default
+[13:50:26] [ResultMessages] Music Volume was set as 101% and SFX Volume was set to 101%
+[13:50:26] [ResultMessages] FileWatcher Initialization succeded
+[13:50:26] [ResultMessages] WindowHandler Initialization succeded
+[13:50:26] [ResultMessages] FrameWork Initialization succeded
+[13:50:26] [ResultMessages] Scene Initialization succeded
+[13:50:26] [ResultMessages] LightLoader Initialization succeded
+[13:50:26] [ResultMessages] ShaderManager Initialization succeded
+[13:50:26] [ResultMessages] BlendStateManager Initialization succeded
+[13:50:26] [ResultMessages] FullScreenRenderer Initialization succeded
+[13:50:26] [ResultMessages]  Initialization succeded
+[13:50:26] [ResultMessages] myForwardRenderer Initialization succeded
+[13:50:27] [ResultMessages] myDeferredRenderer Initialization succeded
+[13:50:27] [ResultMessages] mySpriteRenderer Initialization succeded
+[13:50:27] [ResultMessages] myParticleRenderer Initialization succeded
+[13:50:27] [ResultMessages] DepthStencil Initialization succeded
+[13:50:27] [ResultMessages] GraphicsEngine Initialization succeded
+[13:50:27] [ResultMessages] ParticleEmittorLoader Initialization succeded
+[13:50:27] [ResultMessages] ParticleManager Initialization succeded
+[13:50:28] [ResultMessages] TextManager Initialization succeded
+[13:50:29] [ResultMessages] ResourceManager Initialization succeded
+[13:50:30] [ResultMessages] [DataManager] UserConfig : ../Assets/Data/Config/Default.json Loaded
+[13:50:39] [ResultMessages] Successfully Pushed Main State: MainMenuState
+[13:50:49] [ResultMessages] Successfully Pushed Main State: 

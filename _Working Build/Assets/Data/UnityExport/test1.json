@@ -1,0 +1,94 @@
+{
+    "JsonDocument": [
+        {
+            "ObjectData": [
+                {
+                    "pathArray": [],
+                    "position": {
+                        "x": 355.5459289550781,
+                        "y": 141.10609436035157,
+                        "z": -125.60295867919922
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "objectID": "63"
+                }
+            ],
+            "MovableObjectData": [
+                {
+                    "pathArray": [],
+                    "position": {
+                        "x": 355.5459289550781,
+                        "y": 141.10609436035157,
+                        "z": -125.60295867919922
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "objectID": "g",
+                    "moveSpeed": 0.0
+                },
+                {
+                    "pathArray": [],
+                    "position": {
+                        "x": 355.5459289550781,
+                        "y": 141.10609436035157,
+                        "z": -125.60295867919922
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "objectID": "df",
+                    "moveSpeed": 0.0
+                },
+                {
+                    "pathArray": [],
+                    "position": {
+                        "x": 355.5459289550781,
+                        "y": 141.10609436035157,
+                        "z": -125.60295867919922
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "objectID": "dfh",
+                    "moveSpeed": 0.0
+                }
+            ],
+            "TriggerData": [
+                {
+                    "position": {
+                        "x": 11.654285430908204,
+                        "y": 10.047608375549317,
+                        "z": -4.330321788787842
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 1.0,
+                        "y": 1.0,
+                        "z": 1.0
+                    },
+                    "hasBoxCollider": true,
+                    "radius": 0.0,
+                    "myLuaFile": "dfhdfh.lua",
+                    "linkedObjectID": "63"
+                }
+            ],
+            "PointLightData": [],
+            "SpotLightData": []
+        }
+    ]
+}

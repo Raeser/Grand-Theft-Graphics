@@ -1,0 +1,47 @@
+{
+    "JsonDocument": [
+        {
+            "ObjectData": [
+                {
+                    "objectID": "",
+                    "pathArray": [
+                        "gate/gate.fbx"
+                    ],
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 10.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                }
+            ],
+            "MovableObjectData": [],
+            "TriggerData": [],
+            "ParticleEmittorData": [],
+            "PointLightData": [],
+            "SpotLightData": [],
+            "AudioSplineData": [],
+            "DataData": [],
+            "ColliderData": [
+                {
+                    "myIDString": "hej",
+                    "myColliderTypeString": "NavMesh",
+                    "myPosition": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 15.0
+                    },
+                    "size": {
+                        "x": 10.0,
+                        "y": 10.0,
+                        "z": 10.0
+                    }
+                }
+            ]
+        }
+    ]
+}

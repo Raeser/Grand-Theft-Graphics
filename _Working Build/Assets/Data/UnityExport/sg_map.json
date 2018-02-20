@@ -1,0 +1,54 @@
+{
+    "JsonDocument": [
+        {
+            "ObjectData": [
+              {
+                "pathArray": [
+                  "mediumPalmTree/mediumPalmTree.fbx"
+                ],
+                "position": {
+                  "x": -15.0,
+                  "y": 0.0,
+                  "z": 20.0
+                },
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              },
+              {
+                "pathArray": [
+                  "minionCharacter/minionCharacter.fbx"
+                ],
+                "position": {
+                  "x": 15.0,
+                  "y": 0.0,
+                  "z": 20.0
+                },
+                "rotation": {
+                  "x": 0.0,
+                  "y": 0.0,
+                  "z": 0.0
+                }
+              },
+                              {
+                    "pathArray": [
+                        "playerCharacter/playerCharacter.fbx"
+                    ],
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 20.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    }
+                }
+            ],
+            "TriggerData": []
+        }
+    ]
+}

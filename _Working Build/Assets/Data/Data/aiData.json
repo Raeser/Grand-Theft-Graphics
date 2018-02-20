@@ -1,0 +1,8 @@
+{
+	"sepRadius": 1.0,
+	"sepForce": 2.25,
+	"distFromPlayer": 5.0,
+	"areaScalar": 2.25,
+	"radiusScalar":1.1,
+	"maxY": 1.2
+}

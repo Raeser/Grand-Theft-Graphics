@@ -1,0 +1,13 @@
+{
+  "Data": [
+    {
+      "tikiSpeed": 7.0,
+      "throwSpeed": 7.0,
+      "maxThrowHeight": 8.0,
+      "maxThrowLength": 30.0,
+      "jumpSpeed": 10.0,
+      "minDistianceToPlayer": 4.0,
+      "restlessMaxTimer": 7.0
+    }
+  ]
+}

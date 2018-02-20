@@ -1,0 +1,20 @@
+{
+    "Data": [
+        {
+            "Camera": {
+                "cameraScrollZoomSpeed": 0.5,
+                "cameraMouseZoomSpeed": 1.0,
+                "cameraMouseZoomMultiplier": 2.0,
+                "cameraMouseRotationSpeed": 2.5,
+                "cameraMouseDragSpeed": 50.0,
+                "cameraSpeed": 5.0,
+                "cameraAngleInDegree": 60.0,
+                "cameraDistanceVectorToPlayer": {
+                    "x": 0.0,
+                    "y": 18.0,
+                    "z": -8.56257152557373
+                }
+            }
+        }
+    ]
+}

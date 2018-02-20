@@ -1,0 +1,33 @@
+{
+	"playerWeaponRight":
+	{
+		"fireRate": 0.1,
+		"wwiseEvent": "Play_Laser",
+		"offsetPosFromParent": 
+		{
+			"x": 5,
+			"y": -3,
+			"z": 1
+		}
+	},
+  "playerWeaponLeft": {
+    "fireRate": 0.1,
+    "wwiseEvent": "Play_Laser",
+    "offsetPosFromParent": {
+      "x": -5,
+      "y": -3,
+      "z": 1
+    }
+  },
+  "enemyWeapon":
+	{
+		"fireRate": 0.3,
+		"wwiseEvent": "Play_Laser",
+		"offsetPosFromParent": 
+		{
+			"x": 0,
+			"y": 0,
+			"z": 1
+		}
+	}
+}

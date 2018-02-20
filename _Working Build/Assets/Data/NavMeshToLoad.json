@@ -1,0 +1,23 @@
+{
+  "DefaultNavMesh": "../assets/models/NavMesh/SimpleNavMesh.nav",
+  "JsonDocument": [
+    {
+      "Level": "TutorialLevel.json",
+      "NavMeshToLoad": "../assets/models/NavMesh/TutorialLevel_NavMesh.nav"
+    },
+    {
+      "Level": "AnnettesLevel.json",
+      "NavMeshToLoad": "../assets/models/NavMesh/Level3_NavMesh.nav"
+    },
+    {
+      "Level": "JonasLevel.json",
+      "NavMeshToLoad": "../assets/models/NavMesh/Level2_NavMesh.nav"
+    },
+    {
+      "NavMeshToLoad": "../assets/models/NavMesh/Level3_NavMesh_2.nav"
+    },
+    { 
+      "NavMeshToLoad": "../assets/models/NavMesh/Level3_NavMesh_3.nav"
+    }
+  ]
+}

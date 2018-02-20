@@ -1,0 +1,58 @@
+[13:50:31] [UnityExporter] [UNITY EXPORTER] - Begin 
+ ==========================================================================================
+[13:50:31] [UnityExporter] [UNITY EXPORTER] - Loading Levels
+[13:50:31] [UnityExporter] [UNITYEXPORTER] >>> 
+[13:50:31] [UnityExporter] [UNITYEXPORTER] ../Assets/Data/UnityExport/TutorialLevel.json Loading data from jsonfile 
+[13:50:31] [UnityExporter] [UNITYEXPORTER] ../Assets/Data/UnityExport/TutorialLevel.json Ended !  InstancesData loaded from JsonFile: 393
+[13:50:31] [UnityExporter] [UNITYEXPORTER] <<< 
+[13:50:31] [UnityExporter] [UnityExporter] Object count: 393
+[13:50:31] [UnityExporter] [UnityExporter] MovableObject count: 5
+[13:50:31] [UnityExporter] [UnityExporter] Trigger count: 11
+[13:50:31] [UnityExporter] [UnityExporter] ParticleEmittor count: 52
+[13:50:31] [UnityExporter] [UnityExporter] SpotLight count: 0
+[13:50:31] [UnityExporter] [UnityExporter] PointLight count: 17
+[13:50:31] [UnityExporter] [UnityExporter] AudiSplines count: 2
+[13:50:31] [UnityExporter] [UnityExporter] DataPoint count: 0
+[13:50:31] [UnityExporter] [UnityExporter] Colliders count: 3
+[13:50:31] [UnityExporter] [UnityExporter] Total Istances loaded from JsonFiles: 483
+[13:50:32] [UnityExporter] [UNITYEXPORTER] >>> 
+[13:50:32] [UnityExporter] [UNITYEXPORTER] ../Assets/Data/UnityExport/JonasLevel.json Loading data from jsonfile 
+[13:50:33] [UnityExporter] [UNITYEXPORTER] ../Assets/Data/UnityExport/JonasLevel.json Ended !  InstancesData loaded from JsonFile: 823
+[13:50:33] [UnityExporter] [UNITYEXPORTER] <<< 
+[13:50:33] [UnityExporter] [UnityExporter] Object count: 823
+[13:50:33] [UnityExporter] [UnityExporter] MovableObject count: 17
+[13:50:33] [UnityExporter] [UnityExporter] Trigger count: 19
+[13:50:33] [UnityExporter] [UnityExporter] ParticleEmittor count: 18
+[13:50:33] [UnityExporter] [UnityExporter] SpotLight count: 0
+[13:50:33] [UnityExporter] [UnityExporter] PointLight count: 6
+[13:50:33] [UnityExporter] [UnityExporter] AudiSplines count: 0
+[13:50:33] [UnityExporter] [UnityExporter] DataPoint count: 0
+[13:50:33] [UnityExporter] [UnityExporter] Colliders count: 18
+[13:50:33] [UnityExporter] [UnityExporter] Total Istances loaded from JsonFiles: 901
+[13:50:34] [UnityExporter] [UNITYEXPORTER] >>> 
+[13:50:34] [UnityExporter] [UNITYEXPORTER] ../Assets/Data/UnityExport/AnnettesLevel.json Loading data from jsonfile 
+[13:50:34] [UnityExporter] [UNITYEXPORTER][Object] WARNING Object at index: 9 -- path string was more then 1 in JsonFile: ../Assets/Data/UnityExport/AnnettesLevel.json
+[13:50:35] [UnityExporter] [UNITYEXPORTER] ../Assets/Data/UnityExport/AnnettesLevel.json Ended !  InstancesData loaded from JsonFile: 989
+[13:50:35] [UnityExporter] [UNITYEXPORTER] <<< 
+[13:50:35] [UnityExporter] [UnityExporter] Object count: 989
+[13:50:35] [UnityExporter] [UnityExporter] MovableObject count: 15
+[13:50:35] [UnityExporter] [UnityExporter] Trigger count: 45
+[13:50:35] [UnityExporter] [UnityExporter] ParticleEmittor count: 82
+[13:50:35] [UnityExporter] [UnityExporter] SpotLight count: 0
+[13:50:35] [UnityExporter] [UnityExporter] PointLight count: 20
+[13:50:35] [UnityExporter] [UnityExporter] AudiSplines count: 2
+[13:50:35] [UnityExporter] [UnityExporter] DataPoint count: 0
+[13:50:35] [UnityExporter] [UnityExporter] Colliders count: 0
+[13:50:35] [UnityExporter] [UnityExporter] Total Istances loaded from JsonFiles: 1153
+[13:50:35] [UnityExporter] [UnityExporter] Summary: 
+[13:50:35] [UnityExporter] [UnityExporter] Total Object count: 2205
+[13:50:35] [UnityExporter] [UnityExporter] Total MovableObject count: 37
+[13:50:35] [UnityExporter] [UnityExporter] Total Trigger count: 75
+[13:50:35] [UnityExporter] [UnityExporter] Total ParticleEmittor count: 152
+[13:50:35] [UnityExporter] [UnityExporter] Total SpotLight count: 0
+[13:50:35] [UnityExporter] [UnityExporter] Total PointLight count: 43
+[13:50:35] [UnityExporter] [UnityExporter] Total AudiSplines count: 4
+[13:50:35] [UnityExporter] [UnityExporter] Total DataPoint count: 0
+[13:50:35] [UnityExporter] [UnityExporter] Total Colliders count: 1014
+[13:50:35] [UnityExporter] [UNITY EXPORTER] - END 
+ ==========================================================================================

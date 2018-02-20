@@ -1,0 +1,15 @@
+{
+    "JsonDocument": [
+        {
+            "ObjectData": [],
+            "AsteroidData": [],
+            "EnemyData": [],
+            "StructureData": [],
+            "CheckpointData": [],
+            "PickupBoostData": [],
+            "PickupHealthData": [],
+            "PickupSheildData": [],
+            "TriggerData": []
+        }
+    ]
+}

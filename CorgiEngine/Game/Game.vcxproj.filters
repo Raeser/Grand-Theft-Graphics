@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Precompiled">
+      <UniqueIdentifier>{1ed0696e-08e2-4fd9-b58f-b55a1ace5e6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{c7e0a864-1111-4cf4-bdb7-1c972d720bf4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="etc">
+      <UniqueIdentifier>{b1a99a4f-5d17-46a7-ac3d-bd31f5e515c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Builders">
+      <UniqueIdentifier>{61cbba1e-87d0-477b-972d-30d4a4db40b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collision">
+      <UniqueIdentifier>{dcd028db-09d4-41b7-8dac-b8da9b95da90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="States">
+      <UniqueIdentifier>{93268b96-c0f2-4038-bf44-c4324c0496d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{bf452e64-1af7-45f6-afd9-efcf890929a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Trash">
+      <UniqueIdentifier>{ebbf7fd9-4118-4f54-8b14-d48d770dbe3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UnityExporter">
+      <UniqueIdentifier>{a6751f50-ce58-4cd6-ad37-bdb2cb0c6b97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NAVmesh">
+      <UniqueIdentifier>{7d2f34d6-ce7e-48f3-9737-1057bfe18325}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quadtree">
+      <UniqueIdentifier>{36a92c45-8915-491d-a94d-61c8d5e9da1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Precompiled</Filter>
+    </ClInclude>
+    <ClInclude Include="StateStack.h">
+      <Filter>etc</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>etc</Filter>
+    </ClInclude>
+    <ClInclude Include="LevelBuilder.h">
+      <Filter>Builders</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionLayer.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="InGameState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Slider.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsSelector.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME_DEFINES.h">
+      <Filter>etc</Filter>
+    </ClInclude>
+    <ClInclude Include="DataStructs.h">
+      <Filter>etc</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSettings.h">
+      <Filter>etc</Filter>
+    </ClInclude>
+    <ClInclude Include="UnityExporter.h">
+      <Filter>UnityExporter</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="unitystruct.h">
+      <Filter>UnityExporter</Filter>
+    </ClInclude>
+    <ClInclude Include="AABB.h" />
+    <ClInclude Include="InputWrapper.h" />
+    <ClInclude Include="WwiseWrapper.h" />
+    <ClInclude Include="InfoBoxState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Cursor.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="SliderCursor.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIObject.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIConnectedObject.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="CorgiUsers.h" />
+    <ClInclude Include="GameWorld.h" />
+    <ClInclude Include="EngineWrapper.h" />
+    <ClInclude Include="EditState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="ConsoleState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="WinState.h">
+      <Filter>States</Filter>
+    </ClInclude>
+    <ClInclude Include="Quadtree.h">
+      <Filter>Quadtree</Filter>
+    </ClInclude>
+    <ClInclude Include="Spline.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Precompiled</Filter>
+    </ClCompile>
+    <ClCompile Include="StateStack.cpp">
+      <Filter>etc</Filter>
+    </ClCompile>
+    <ClCompile Include="LevelBuilder.cpp">
+      <Filter>Builders</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="InGameState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Slider.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsSelector.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameSettings.cpp">
+      <Filter>etc</Filter>
+    </ClCompile>
+    <ClCompile Include="UnityExporter.cpp">
+      <Filter>UnityExporter</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="AABB.cpp" />
+    <ClCompile Include="InputWrapper.cpp" />
+    <ClCompile Include="WwiseWrapper.cpp" />
+    <ClCompile Include="InfoBoxState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Cursor.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="SliderCursor.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIConnectedObject.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="UIObject.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="GameWorld.cpp" />
+    <ClCompile Include="EngineWrapper.cpp" />
+    <ClCompile Include="EditState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="ConsoleState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="WinState.cpp">
+      <Filter>States</Filter>
+    </ClCompile>
+    <ClCompile Include="Spline.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Game.aps">
+      <Filter>Trash</Filter>
+    </None>
+    <None Include="CorgiUsers" />
+  </ItemGroup>
+</Project>

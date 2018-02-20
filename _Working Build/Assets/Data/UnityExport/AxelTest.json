@@ -1,0 +1,51 @@
+{
+    "JsonDocument": [
+        {
+            "ObjectData": [],
+            "MovableObjectData": [
+                {
+                  "pathArray": [
+                    "gate/gate.fbx"
+                  ],
+                    "position": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 1.0
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "objectID": "StureGate",
+                    "moveSpeed": 0.0
+                }
+            ],
+            "TriggerData": [
+                {
+                    "position": {
+                        "x": -10.859999656677246,
+                        "y": 0.0,
+                        "z": 3.4000000953674318
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 8.9399995803833,
+                        "y": 7.050000190734863,
+                        "z": 5.440000057220459
+                    },
+                    "hasBoxCollider": true,
+                    "radius": 0.0,
+                    "myLuaFile": "TestAnimate.lua",
+                    "linkedObjectID": ""
+                }
+            ],
+            "PointLightData": [],
+            "SpotLightData": []
+        }
+    ]
+}

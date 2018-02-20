@@ -1,0 +1,990 @@
+[13:50:26] [Resource] AudioInterface Successfully loaded Main.bnk
+[13:50:26] [Resource] [ModelLoader] - Texture ../Assets/LookUpTables/RBGLUT_ColorCorrection.dds load succeded
+[13:50:27] [Resource] CubeMap load succeded
+[13:50:27] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/errorsprite.dds
+[13:50:27] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:27] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:27] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:27] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:27] [Resource] [CSpriteLoader] - Done
+[13:50:27] [Resource] [ParticleEmitterLoader] - Texture ../Assets/Sprites/Particles/Smoke.dds load succeded
+[13:50:28] [Resource] [Fontloader] - Font: ../Assets/Fonts/comic.ttf loaded
+[13:50:28] [Resource] [Fontloader] - Font: ../Assets/Fonts/arial.ttf loaded
+[13:50:29] [Resource] [ModelLoader] - LoadTexture failed to load file: ERRORCUBE
+[13:50:29] [Resource] [ModelLoader] - defaulting to chequered error sprite!
+[13:50:29] [Resource] [ModelLoader] - LoadTexture failed to load file: ERRORCUBE
+[13:50:29] [Resource] [ModelLoader] - defaulting to chequered error sprite!
+[13:50:29] [Resource] [ModelLoader] - LoadTexture failed to load file: ERRORCUBE
+[13:50:29] [Resource] [ModelLoader] - texture was set to default white texture!
+[13:50:29] [Resource] [ModelLoader] - LoadTexture failed to load file: ERRORCUBE
+[13:50:29] [Resource] [ModelLoader] - texture was set to default Full black!
+[13:50:29] [Resource] [ModelLoader] - LoadTexture failed to load file: ERRORCUBE
+[13:50:29] [Resource] [ModelLoader] - texture was set to default Full black!
+[13:50:29] [Resource] [ModelLoader] - LoadTexture failed to load file: ERRORCUBE
+[13:50:29] [Resource] [ModelLoader] - texture was set to default Full black!
+[13:50:29] [Resource] [ModelLoader] - Create skybox InputLayout load succeded
+[13:50:29] [Resource] [ModelLoader] - Texture ../assets/cubemaps/skybox.dds load succeded
+[13:50:29] [Resource] [ModelLoader] - Create Cube InputLayout load succeded
+[13:50:30] [Resource] [ModelLoader] - LoadTexture failed to load file: ERRORCUBE
+[13:50:30] [Resource] [ModelLoader] - defaulting to chequered error sprite!
+[13:50:30] [Resource] [ModelLoader] - LoadTexture failed to load file: ERRORCUBE
+[13:50:30] [Resource] [ModelLoader] - defaulting to chequered error sprite!
+[13:50:30] [Resource] [ModelLoader] - LoadTexture failed to load file: ERRORCUBE
+[13:50:30] [Resource] [ModelLoader] - texture was set to default white texture!
+[13:50:30] [Resource] [ModelLoader] - LoadTexture failed to load file: ERRORCUBE
+[13:50:30] [Resource] [ModelLoader] - texture was set to default Full black!
+[13:50:30] [Resource] [ModelLoader] - LoadTexture failed to load file: ERRORCUBE
+[13:50:30] [Resource] [ModelLoader] - texture was set to default Full black!
+[13:50:30] [Resource] [ModelLoader] - LoadTexture failed to load file: ERRORCUBE
+[13:50:30] [Resource] [ModelLoader] - texture was set to default Full black!
+[13:50:30] [Resource] Cube succeded on load
+[13:50:30] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/menubackground.dds
+[13:50:31] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:31] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:31] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:31] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:31] [Resource] [CSpriteLoader] - Done
+[13:50:31] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/startbutton.dds
+[13:50:31] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:31] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:31] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:31] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:31] [Resource] [CSpriteLoader] - Done
+[13:50:31] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/startbuttonhighlight.dds
+[13:50:31] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:31] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:31] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:31] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:31] [Resource] [CSpriteLoader] - Done
+[13:50:31] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/exitbutton.dds
+[13:50:31] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:31] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:31] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:31] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:31] [Resource] [CSpriteLoader] - Done
+[13:50:31] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/exitbuttonhighlight.dds
+[13:50:31] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:31] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:31] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:31] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:31] [Resource] [CSpriteLoader] - Done
+[13:50:35] [Resource] [ModelLoader] - Creating Model: ../assets/models/minioncharacter/minioncharacter.fbx
+[13:50:35] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/applybuttonhighlight.dds
+[13:50:35] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:35] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:35] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:35] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:35] [Resource] [CSpriteLoader] - Done
+[13:50:35] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/resolutionselectortext.dds
+[13:50:35] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:35] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:35] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:35] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:35] [Resource] [CSpriteLoader] - Done
+[13:50:35] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/showroombutton.dds
+[13:50:35] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:35] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:35] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:35] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:35] [Resource] [CSpriteLoader] - Done
+[13:50:35] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/levelonebutton.dds
+[13:50:35] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:35] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:35] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:35] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:35] [Resource] [CSpriteLoader] - Done
+[13:50:35] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/okbutton.dds
+[13:50:35] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:35] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:35] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:35] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:36] [Resource] [CSpriteLoader] - Done
+[13:50:36] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/confirmsettingsinfobox.dds
+[13:50:36] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:36] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:36] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:36] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:36] [Resource] [CSpriteLoader] - Done
+[13:50:36] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/arrowleftbutton.dds
+[13:50:36] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:36] [Resource] [ModelLoader] - Texture ../assets/models/minioncharacter/minionCharacter_Albedo.dds load succeded
+[13:50:36] [Resource] [ModelLoader] - Texture ../assets/models/minioncharacter/minionCharacter_Normals.dds load succeded
+[13:50:36] [Resource] [ModelLoader] - Texture ../assets/models/minioncharacter/minionCharacter_Roughness.dds load succeded
+[13:50:36] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:36] [Resource] [ModelLoader] - Texture ../assets/models/minioncharacter/minionCharacter_AmbientOcclusion.dds load succeded
+[13:50:36] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:36] [Resource] [ModelLoader] - Texture ../assets/models/minioncharacter/minionCharacter_Emissive.dds load succeded
+[13:50:36] [Resource] [ModelLoader] - Texture ../assets/models/minioncharacter/minionCharacter_Metallic.dds load succeded
+[13:50:36] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:36] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:36] [Resource] [CSpriteLoader] - Done
+[13:50:36] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/showroombuttonhighlight.dds
+[13:50:36] [Resource] [ModelLoader] - Creating Model: ../assets/models/playercharacter/playercharacter.fbx
+[13:50:36] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:36] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:36] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:36] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:36] [Resource] [CSpriteLoader] - Done
+[13:50:36] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/showroomcontrols.dds
+[13:50:36] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:36] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:36] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:36] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:36] [Resource] [CSpriteLoader] - Done
+[13:50:36] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/text1920x1080.dds
+[13:50:36] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:36] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:36] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:36] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:36] [Resource] [CSpriteLoader] - Done
+[13:50:36] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/nobuttonhighlight.dds
+[13:50:36] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:36] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:36] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:36] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:36] [Resource] [CSpriteLoader] - Done
+[13:50:36] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/blurredbackground.dds
+[13:50:36] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:36] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:36] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:36] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:36] [Resource] [CSpriteLoader] - Done
+[13:50:36] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/okbuttonhighlight.dds
+[13:50:36] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:36] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:36] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:36] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:36] [Resource] [CSpriteLoader] - Done
+[13:50:36] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/fullscreenoff.dds
+[13:50:36] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:36] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:36] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:36] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:36] [Resource] [CSpriteLoader] - Done
+[13:50:36] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/levelonebuttonhighlight.dds
+[13:50:36] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:36] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:36] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:36] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:36] [Resource] [CSpriteLoader] - Done
+[13:50:36] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/leveltwobutton.dds
+[13:50:36] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:36] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:36] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:36] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:36] [Resource] [CSpriteLoader] - Done
+[13:50:36] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/backbutton.dds
+[13:50:37] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:37] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:37] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:37] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:37] [Resource] [CSpriteLoader] - Done
+[13:50:37] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/levelthreebutton.dds
+[13:50:37] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:37] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:37] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:37] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:37] [Resource] [CSpriteLoader] - Done
+[13:50:37] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/consolewindow.dds
+[13:50:37] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:37] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:37] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:37] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:37] [Resource] [CSpriteLoader] - Done
+[13:50:37] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/arrowleftbuttonhighlight.dds
+[13:50:37] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:37] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:37] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:37] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:37] [Resource] [CSpriteLoader] - Done
+[13:50:37] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/gradientdim.dds
+[13:50:37] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:37] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:37] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:37] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:37] [Resource] [CSpriteLoader] - Done
+[13:50:37] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/leveltwobuttonhighlight.dds
+[13:50:37] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:37] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:37] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:37] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:37] [Resource] [CSpriteLoader] - Done
+[13:50:37] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/yesbuttonhighlight.dds
+[13:50:37] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:37] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:37] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:37] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:37] [Resource] [CSpriteLoader] - Done
+[13:50:37] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/resumebuttonhighlight.dds
+[13:50:37] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:37] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:37] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:37] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:37] [Resource] [CSpriteLoader] - Done
+[13:50:37] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/levelthreebuttonhighlight.dds
+[13:50:37] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:37] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:37] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:37] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:37] [Resource] [CSpriteLoader] - Done
+[13:50:37] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/texton.dds
+[13:50:37] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:37] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:37] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:37] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:37] [Resource] [CSpriteLoader] - Done
+[13:50:37] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/text1280x720.dds
+[13:50:37] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:37] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:37] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:37] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:37] [Resource] [CSpriteLoader] - Done
+[13:50:37] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/resolution1920.dds
+[13:50:37] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:37] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:37] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:37] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:37] [Resource] [CSpriteLoader] - Done
+[13:50:37] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/resolution1280.dds
+[13:50:37] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:37] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:37] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:37] [Resource] Shader Already loaded from path | ../assets/shaders/VS_DEFModelAnimatedDefault.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:37] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:37] [Resource] [CSpriteLoader] - Done
+[13:50:37] [Resource] Shader Already loaded from path | ../assets/shaders/PS_DEFModelAnimatedDefault.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:37] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/arrowrightbuttonhighlight.dds
+[13:50:37] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:37] [Resource] [ModelLoader] - Texture ../assets/models/playercharacter/playerCharacter_Albedo.dds load succeded
+[13:50:37] [Resource] [ModelLoader] - Texture ../assets/models/playercharacter/playerCharacter_Normals.dds load succeded
+[13:50:37] [Resource] [ModelLoader] - Texture ../assets/models/playercharacter/playerCharacter_Roughness.dds load succeded
+[13:50:38] [Resource] [ModelLoader] - Texture ../assets/models/playercharacter/playerCharacter_AmbientOcclusion.dds load succeded
+[13:50:37] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [ModelLoader] - Texture ../assets/models/playercharacter/playerCharacter_Emissive.dds load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [ModelLoader] - Texture ../assets/models/playercharacter/playerCharacter_Metallic.dds load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/text_music_volume.dds
+[13:50:38] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/dim.dds
+[13:50:38] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/slidercursorhighlight.dds
+[13:50:38] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/fullscreenselectortext.dds
+[13:50:38] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/nobutton.dds
+[13:50:38] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/levelselectbutton.dds
+[13:50:38] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/text1920.dds
+[13:50:38] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/text1280.dds
+[13:50:38] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/fullscreenon.dds
+[13:50:38] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/creditsbackground.dds
+[13:50:38] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/yesbutton.dds
+[13:50:38] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/resumebutton.dds
+[13:50:38] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/text_sfx_volume.dds
+[13:50:38] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/levelselectbuttonhighlight.dds
+[13:50:38] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/text800x600.dds
+[13:50:38] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/creditsbutton.dds
+[13:50:38] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/optionsbutton.dds
+[13:50:38] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/backbuttonhighlight.dds
+[13:50:38] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/arrowrightbutton.dds
+[13:50:38] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/slider.dds
+[13:50:38] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/creditsbuttonhighlight.dds
+[13:50:38] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/applybutton.dds
+[13:50:38] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/optionsbuttonhighlight.dds
+[13:50:38] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/slidercursor.dds
+[13:50:38] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/textoff.dds
+[13:50:38] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/settingssuccessinfobox.dds
+[13:50:38] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/menus/selectorbase.dds
+[13:50:38] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:38] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:38] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:38] [Resource] [CSpriteLoader] - Done
+[13:50:38] [Resource] [ModelLoader] - Creating Model: ../assets/models/mushroom01/mushroom01.fbx
+[13:50:38] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:38] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:38] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:38] [Resource] [ModelLoader] - Texture ../assets/models/mushroom01/mushroom01_Albedo.dds load succeded
+[13:50:38] [Resource] [ModelLoader] - Texture ../assets/models/mushroom01/mushroom01_Normals.dds load succeded
+[13:50:38] [Resource] [ModelLoader] - Texture ../assets/models/mushroom01/mushroom01_Roughness.dds load succeded
+[13:50:38] [Resource] [ModelLoader] - Texture ../assets/models/mushroom01/mushroom01_AmbientOcclusion.dds load succeded
+[13:50:38] [Resource] [ModelLoader] - Texture ../assets/models/mushroom01/mushroom01_Emissive.dds load succeded
+[13:50:38] [Resource] [ModelLoader] - Texture ../assets/models/mushroom01/mushroom01_Metallic.dds load succeded
+[13:50:38] [Resource] [ModelLoader] - Creating Model: ../assets/models/level3_terrain/level3_terrain.fbx
+[13:50:47] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModelDefault.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:47] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:47] [Resource] [ModelLoader] - Texture ../assets/models/level3_terrain/Level3_Terrain_Albedo.dds load succeded
+[13:50:47] [Resource] [ModelLoader] - Texture ../assets/models/level3_terrain/Level3_Terrain_Normals.dds load succeded
+[13:50:47] [Resource] [ModelLoader] - Texture ../assets/models/level3_terrain/Level3_Terrain_Roughness.dds load succeded
+[13:50:47] [Resource] [ModelLoader] - Texture ../assets/models/level3_terrain/Level3_Terrain_AmbientOcclusion.dds load succeded
+[13:50:47] [Resource] [ModelLoader] - Texture ../assets/models/level3_terrain/Level3_Terrain_Emissive.dds load succeded
+[13:50:47] [Resource] [ModelLoader] - Texture ../assets/models/level3_terrain/Level3_Terrain_Metallic.dds load succeded
+[13:50:47] [Resource] [ModelLoader] - Creating Model: ../assets/models/rivermesh_canyonpart/rivermesh_canyonpart.fbx
+[13:50:47] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:47] [Resource] [ModelLoader] - Texture ../assets/models/rivermesh_canyonpart/riverMesh_CanyonPart_Albedo.dds load succeded
+[13:50:47] [Resource] [ModelLoader] - Texture ../assets/models/rivermesh_canyonpart/riverMesh_CanyonPart_Normals.dds load succeded
+[13:50:47] [Resource] [ModelLoader] - LoadTexture failed to load file: ../assets/models/rivermesh_canyonpart/
+[13:50:47] [Resource] [ModelLoader] - texture was set to default Full black!
+[13:50:47] [Resource] [ModelLoader] - LoadTexture failed to load file: ../assets/models/rivermesh_canyonpart/
+[13:50:47] [Resource] [ModelLoader] - texture was set to default white texture!
+[13:50:47] [Resource] [ModelLoader] - LoadTexture failed to load file: ../assets/models/rivermesh_canyonpart/
+[13:50:47] [Resource] [ModelLoader] - texture was set to default Full black!
+[13:50:47] [Resource] [ModelLoader] - LoadTexture failed to load file: ../assets/models/rivermesh_canyonpart/
+[13:50:47] [Resource] [ModelLoader] - texture was set to default Full black!
+[13:50:47] [Resource] [ModelLoader] - Creating Model: ../assets/models/houses/house1/house1.fbx
+[13:50:47] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:47] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:47] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:47] [Resource] [ModelLoader] - Texture ../assets/models/houses/house1/House1_Albedo.dds load succeded
+[13:50:47] [Resource] [ModelLoader] - Texture ../assets/models/houses/house1/House1_Normals.dds load succeded
+[13:50:47] [Resource] [ModelLoader] - Texture ../assets/models/houses/house1/House1_Roughness.dds load succeded
+[13:50:47] [Resource] [ModelLoader] - Texture ../assets/models/houses/house1/House1_AmbientOcclusion.dds load succeded
+[13:50:47] [Resource] [ModelLoader] - Texture ../assets/models/houses/house1/House1_Emissive.dds load succeded
+[13:50:47] [Resource] [ModelLoader] - Texture ../assets/models/houses/house1/House1_Metallic.dds load succeded
+[13:50:47] [Resource] [ModelLoader] - Creating Model: ../assets/models/treebig/treebig.fbx
+[13:50:47] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:47] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:47] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:47] [Resource] [ModelLoader] - Texture ../assets/models/treebig/treeBig_Albedo.dds load succeded
+[13:50:47] [Resource] [ModelLoader] - Texture ../assets/models/treebig/treeBig_Normals.dds load succeded
+[13:50:47] [Resource] [ModelLoader] - Texture ../assets/models/treebig/treeBig_Roughness.dds load succeded
+[13:50:47] [Resource] [ModelLoader] - Texture ../assets/models/treebig/treeBig_AmbientOcclusion.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/treebig/treeBig_Emissive.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/treebig/treeBig_Metallic.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Creating Model: ../assets/models/log/log.fbx
+[13:50:48] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:48] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:48] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/log/log_Albedo.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/log/log_Normals.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/log/log_Roughness.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/log/log_AmbientOcclusion.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/log/log_Emissive.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/log/log_Metallic.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Creating Model: ../assets/models/bushlarge/bushlarge.fbx
+[13:50:48] [Resource] Shader Already loaded from path | ../assets/shaders/VS_DEFModelAnimatedDefault.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:48] [Resource] Shader Already loaded from path | ../assets/shaders/PS_DEFModelAnimatedDefault.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:48] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/bushlarge/bushLarge_Albedo.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/bushlarge/bushLarge_Normals.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/bushlarge/bushLarge_Roughness.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/bushlarge/bushLarge_AmbientOcclusion.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/bushlarge/bushLarge_Emissive.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/bushlarge/bushLarge_Metallic.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Creating Model: ../assets/models/bushmedium/bushmedium.fbx
+[13:50:48] [Resource] Shader Already loaded from path | ../assets/shaders/VS_DEFModelAnimatedDefault.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:48] [Resource] Shader Already loaded from path | ../assets/shaders/PS_DEFModelAnimatedDefault.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:48] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/bushmedium/bushMedium_Albedo.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/bushmedium/bushMedium_Normals.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/bushmedium/bushMedium_Roughness.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/bushmedium/bushMedium_AmbientOcclusion.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/bushmedium/bushMedium_Emissive.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/bushmedium/bushMedium_Metallic.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Creating Model: ../assets/models/ornamentwalls/ornamentpillarlarge/ornamentpillarlarge.fbx
+[13:50:48] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:48] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:48] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/ornamentwalls/ornamentpillarlarge/ornamentPillarLarge_Albedo.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/ornamentwalls/ornamentpillarlarge/ornamentPillarLarge_Normals.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/ornamentwalls/ornamentpillarlarge/ornamentPillarLarge_Roughness.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/ornamentwalls/ornamentpillarlarge/ornamentPillarLarge_AmbientOcclusion.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/ornamentwalls/ornamentpillarlarge/ornamentPillarLarge_Emissive.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/ornamentwalls/ornamentpillarlarge/ornamentPillarLarge_Metallic.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Creating Model: ../assets/models/ornamentwalls/ornamentpillarwhole/ornamentpillarwhole.fbx
+[13:50:48] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:48] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:48] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/ornamentwalls/ornamentpillarwhole/ornamentPillarWhole_Albedo.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/ornamentwalls/ornamentpillarwhole/ornamentPillarWhole_Normals.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/ornamentwalls/ornamentpillarwhole/ornamentPillarWhole_Roughness.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/ornamentwalls/ornamentpillarwhole/ornamentPillarWhole_AmbientOcclusion.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/ornamentwalls/ornamentpillarwhole/ornamentPillarWhole_Emissive.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/ornamentwalls/ornamentpillarwhole/ornamentPillarWhole_Metallic.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Creating Model: ../assets/models/rockpiles/rockpile2/rockpile2.fbx
+[13:50:48] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:48] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:48] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/rockpiles/rockpile2/rockPile2_Albedo.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/rockpiles/rockpile2/rockPile2_Normals.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/rockpiles/rockpile2/rockPile2_Roughness.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/rockpiles/rockpile2/rockPile2_AmbientOcclusion.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/rockpiles/rockpile2/rockPile2_Emissive.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/rockpiles/rockpile2/rockPile2_Metallic.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Creating Model: ../assets/models/signs/sign6/sign6.fbx
+[13:50:48] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:48] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:48] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign6/sign6_Albedo.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign6/sign6_Normals.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign6/sign6_Roughness.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign6/sign6_AmbientOcclusion.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign6/sign6_Emissive.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign6/sign6_Metallic.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Creating Model: ../assets/models/signs/sign2/sign2.fbx
+[13:50:48] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:48] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:48] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign2/sign2_Albedo.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign2/sign2_Normals.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign2/sign2_Roughness.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign2/sign2_AmbientOcclusion.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign2/sign2_Emissive.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign2/sign2_Metallic.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Creating Model: ../assets/models/rocks/rocklarge/rocklarge.fbx
+[13:50:48] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:48] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:48] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/rocks/rocklarge/rockLarge_Albedo.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/rocks/rocklarge/rockLarge_Normals.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/rocks/rocklarge/rockLarge_Roughness.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/rocks/rocklarge/rockLarge_AmbientOcclusion.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/rocks/rocklarge/rockLarge_Emissive.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/rocks/rocklarge/rockLarge_Metallic.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Creating Model: ../assets/models/rocks/rockmedium/rockmedium.fbx
+[13:50:48] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:48] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:48] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/rocks/rockmedium/rockMedium_Albedo.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/rocks/rockmedium/rockMedium_Normals.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/rocks/rockmedium/rockMedium_Roughness.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/rocks/rockmedium/rockMedium_AmbientOcclusion.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/rocks/rockmedium/rockMedium_Emissive.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/rocks/rockmedium/rockMedium_Metallic.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Creating Model: ../assets/models/treasurechest/treasurechest.fbx
+[13:50:48] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:48] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:48] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/treasurechest/treasureChest_Albedo.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/treasurechest/treasureChest_Normals.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/treasurechest/treasureChest_Roughness.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/treasurechest/treasureChest_AmbientOcclusion.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/treasurechest/treasureChest_Emissive.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/treasurechest/treasureChest_Metallic.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Creating Model: ../assets/models/houses/house3/house3.fbx
+[13:50:48] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:48] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:48] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/houses/house3/House3_Albedo.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/houses/house3/House3_Normals.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/houses/house3/House3_Roughness.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/houses/house3/House3_AmbientOcclusion.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/houses/house3/House3_Emissive.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/houses/house3/House3_Metallic.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Creating Model: ../assets/models/houses/house2/house2.fbx
+[13:50:48] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:48] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:48] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/houses/house2/House2_Albedo.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/houses/house2/House2_Normals.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/houses/house2/House2_Roughness.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/houses/house2/House2_AmbientOcclusion.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/houses/house2/House2_Emissive.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Texture ../assets/models/houses/house2/House2_Metallic.dds load succeded
+[13:50:48] [Resource] [ModelLoader] - Creating Model: ../assets/models/smallpalmtree/smallpalmtree.fbx
+[13:50:49] [Resource] Shader Already loaded from path | ../assets/shaders/VS_DEFModelAnimatedDefault.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] [GAMEWORLD] - Creating level : tutoriallevel.json
+[13:50:49] [Resource] Shader Already loaded from path | ../assets/shaders/PS_DEFModelAnimatedDefault.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/smallpalmtree/smallPalmTree_Albedo.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/smallpalmtree/smallPalmTree_Normals.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/smallpalmtree/smallPalmTree_Roughness.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/smallpalmtree/smallPalmTree_AmbientOcclusion.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/smallpalmtree/smallPalmTree_Emissive.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/smallpalmtree/smallPalmTree_Metallic.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Creating Model: ../assets/models/stoneheads/stonehead2/stonehead2.fbx
+[13:50:49] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/stoneheads/stonehead2/stoneHead2_Albedo.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/stoneheads/stonehead2/stoneHead2_Normals.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/stoneheads/stonehead2/stoneHead2_Roughness.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/stoneheads/stonehead2/stoneHead2_AmbientOcclusion.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/stoneheads/stonehead2/stoneHead2_Emissive.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/stoneheads/stonehead2/stoneHead2_Metallic.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Creating Model: ../assets/models/flowersmall/flowersmall.fbx
+[13:50:49] [Resource] Shader Already loaded from path | ../assets/shaders/VS_DEFModelAnimatedDefault.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] Shader Already loaded from path | ../assets/shaders/PS_DEFModelAnimatedDefault.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/flowersmall/flowerSmall_Albedo.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/flowersmall/flowerSmall_Normals.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/flowersmall/flowerSmall_Roughness.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/flowersmall/flowerSmall_AmbientOcclusion.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/flowersmall/flowerSmall_Emissive.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/flowersmall/flowerSmall_Metallic.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Creating Model: ../assets/models/torch01/torch01.fbx
+[13:50:49] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/torch01/torch01_Albedo.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/torch01/torch01_Normals.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/torch01/torch01_Roughness.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/torch01/torch01_AmbientOcclusion.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/torch01/torch01_Emissive.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/torch01/torch01_Metallic.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Creating Model: ../assets/models/walltile_01/walltile_01.fbx
+[13:50:49] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/walltile_01/wallTile_01_Albedo.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/walltile_01/wallTile_01_Normals.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/walltile_01/wallTile_01_Roughness.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/walltile_01/wallTile_01_AmbientOcclusion.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/walltile_01/wallTile_01_Emissive.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/walltile_01/wallTile_01_Metallic.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Creating Model: ../assets/models/mushroom03/mushroom03.fbx
+[13:50:49] [Resource] [ParticleEmitterLoader] - Creating particle: TorchFire.ps
+[13:50:49] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] [ParticleEmitterLoader] - Texture ../Assets/Sprites/Particles/Flames.dds load succeded
+[13:50:49] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/mushroom03/mushroom03_Albedo.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/mushroom03/mushroom03_Normals.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/mushroom03/mushroom03_Roughness.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/mushroom03/mushroom03_AmbientOcclusion.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/mushroom03/mushroom03_Emissive.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/mushroom03/mushroom03_Metallic.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Creating Model: ../assets/models/rivermesh_villagepart/rivermesh_villagepart.fbx
+[13:50:49] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_Water.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_Water.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/rivermesh_villagepart/riverMesh_VillagePart_Albedo.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - LoadTexture failed to load file: ../assets/models/rivermesh_villagepart/
+[13:50:49] [Resource] [ModelLoader] - defaulting to chequered error sprite!
+[13:50:49] [Resource] [ModelLoader] - LoadTexture failed to load file: ../assets/models/rivermesh_villagepart/
+[13:50:49] [Resource] [ModelLoader] - texture was set to default Full black!
+[13:50:49] [Resource] [ModelLoader] - LoadTexture failed to load file: ../assets/models/rivermesh_villagepart/
+[13:50:49] [Resource] [ModelLoader] - texture was set to default white texture!
+[13:50:49] [Resource] [ModelLoader] - LoadTexture failed to load file: ../assets/models/rivermesh_villagepart/
+[13:50:49] [Resource] [ModelLoader] - texture was set to default Full black!
+[13:50:49] [Resource] [ModelLoader] - LoadTexture failed to load file: ../assets/models/rivermesh_villagepart/
+[13:50:49] [Resource] [ModelLoader] - texture was set to default Full black!
+[13:50:49] [Resource] [ModelLoader] - Creating Model: ../assets/models/campfire/campfire.fbx
+[13:50:49] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:49] [Resource] [ParticleEmitterLoader] - Particlesystem loaded: TorchFire.ps
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/campfire/campfire_Albedo.dds load succeded
+[13:50:49] [Resource] [ParticleEmitterLoader] - Creating particle: TorchFire2.ps
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/campfire/campfire_Normals.dds load succeded
+[13:50:49] [Resource] [ParticleEmitterLoader] - Texture ../Assets/Sprites/Particles/Flames.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/campfire/campfire_Roughness.dds load succeded
+[13:50:49] [Resource] [ParticleEmitterLoader] - Particlesystem loaded: TorchFire2.ps
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/campfire/campfire_AmbientOcclusion.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/campfire/campfire_Emissive.dds load succeded
+[13:50:49] [Resource] [ParticleEmitterLoader] - Creating particle: TorchFire3.ps
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/campfire/campfire_Metallic.dds load succeded
+[13:50:49] [Resource] [ParticleEmitterLoader] - Texture ../Assets/Sprites/Particles/Flames.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Creating Model: ../assets/models/mediumpalmtree/mediumpalmtree.fbx
+[13:50:49] [Resource] [ParticleEmitterLoader] - Particlesystem loaded: TorchFire3.ps
+[13:50:49] [Resource] [ParticleEmitterLoader] - Creating particle: Fire.ps
+[13:50:49] [Resource] [ParticleEmitterLoader] - Texture ../Assets/Sprites/Particles/Flames.dds load succeded
+[13:50:49] [Resource] [ParticleEmitterLoader] - Particlesystem loaded: Fire.ps
+[13:50:49] [Resource] Shader Already loaded from path | ../assets/shaders/VS_DEFModelAnimatedDefault.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] Shader Already loaded from path | ../assets/shaders/PS_DEFModelAnimatedDefault.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/mediumpalmtree/mediumPalmTree_Albedo.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/mediumpalmtree/mediumPalmTree_Normals.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/mediumpalmtree/mediumPalmTree_Roughness.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/mediumpalmtree/mediumPalmTree_AmbientOcclusion.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/mediumpalmtree/mediumPalmTree_Emissive.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/mediumpalmtree/mediumPalmTree_Metallic.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Creating Model: ../assets/models/ornamentwalls/ornamentpillarbroken/ornamentpillarbroken.fbx
+[13:50:49] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] [GAMEWORLD] - Creating level : tutoriallevel.json
+[13:50:49] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/ornamentwalls/ornamentpillarbroken/ornamentPillarBroken_Albedo.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/ornamentwalls/ornamentpillarbroken/ornamentPillarBroken_Normals.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/ornamentwalls/ornamentpillarbroken/ornamentPillarBroken_Roughness.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/ornamentwalls/ornamentpillarbroken/ornamentPillarBroken_AmbientOcclusion.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/ornamentwalls/ornamentpillarbroken/ornamentPillarBroken_Emissive.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/ornamentwalls/ornamentpillarbroken/ornamentPillarBroken_Metallic.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Creating Model: ../assets/models/stoneheads/stonehead1/stonehead1.fbx
+[13:50:49] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/stoneheads/stonehead1/stoneHead1_Albedo.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/stoneheads/stonehead1/stoneHead1_Normals.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/stoneheads/stonehead1/stoneHead1_Roughness.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/stoneheads/stonehead1/stoneHead1_AmbientOcclusion.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/stoneheads/stonehead1/stoneHead1_Emissive.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/stoneheads/stonehead1/stoneHead1_Metallic.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Creating Model: ../assets/models/rocks/rocksmall/rocksmall.fbx
+[13:50:49] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/rocks/rocksmall/rockSmall_Albedo.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/rocks/rocksmall/rockSmall_Normals.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/rocks/rocksmall/rockSmall_Roughness.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/rocks/rocksmall/rockSmall_AmbientOcclusion.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/rocks/rocksmall/rockSmall_Emissive.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/rocks/rocksmall/rockSmall_Metallic.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Creating Model: ../assets/models/signs/sign1/sign1.fbx
+[13:50:49] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign1/sign1_Albedo.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign1/sign1_Normals.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign1/sign1_Roughness.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign1/sign1_AmbientOcclusion.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign1/sign1_Emissive.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign1/sign1_Metallic.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Creating Model: ../assets/models/vaselarge/vaselarge.fbx
+[13:50:49] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/vaselarge/vaseLarge_Albedo.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/vaselarge/vaseLarge_Normals.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/vaselarge/vaseLarge_Roughness.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/vaselarge/vaseLarge_AmbientOcclusion.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/vaselarge/vaseLarge_Emissive.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/vaselarge/vaseLarge_Metallic.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Creating Model: ../assets/models/walltile_corner/walltile_corner.fbx
+[13:50:49] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:49] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/walltile_corner/wallTile_corner_Albedo.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/walltile_corner/wallTile_corner_Normals.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/walltile_corner/wallTile_corner_Roughness.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/walltile_corner/wallTile_corner_AmbientOcclusion.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/walltile_corner/wallTile_corner_Emissive.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Texture ../assets/models/walltile_corner/wallTile_corner_Metallic.dds load succeded
+[13:50:49] [Resource] [ModelLoader] - Creating Model: ../assets/models/gate/gate.fbx
+[13:50:49] [Resource] Shader Already loaded from path | ../assets/shaders/VS_DEFModelAnimatedDefault.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:50] [Resource] Shader Already loaded from path | ../assets/shaders/PS_DEFModelAnimatedDefault.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:50] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/gate/gate_Albedo.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/gate/gate_Normals.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/gate/gate_Roughness.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/gate/gate_AmbientOcclusion.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/gate/gate_Emissive.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/gate/gate_Metallic.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Creating Model: ../assets/models/lever/lever.fbx
+[13:50:50] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:50] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:50] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/lever/lever_Albedo.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/lever/lever_Normals.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/lever/lever_Roughness.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/lever/lever_AmbientOcclusion.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/lever/lever_Emissive.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/lever/lever_Metallic.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Creating Model: ../assets/models/tutoriallevel_terrain01/tutoriallevel_terrain01.fbx
+[13:50:50] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModelDefault.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:50] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_TerrainShader.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:50] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/tutoriallevel_terrain01/TutorialLevel_Terrain01_Albedo.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/tutoriallevel_terrain01/TutorialLevel_Terrain01_Normals.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/tutoriallevel_terrain01/TutorialLevel_Terrain01_Roughness.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/tutoriallevel_terrain01/TutorialLevel_Terrain01_AmbientOcclusion.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/tutoriallevel_terrain01/TutorialLevel_Terrain01_Emissive.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/tutoriallevel_terrain01/TutorialLevel_Terrain01_Metallic.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Creating Model: ../assets/models/signs/sign3/sign3.fbx
+[13:50:50] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:50] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:50] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign3/sign3_Albedo.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign3/sign3_Normals.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign3/sign3_Roughness.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign3/sign3_AmbientOcclusion.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign3/sign3_Emissive.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign3/sign3_Metallic.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Creating Model: ../assets/models/rivermesh_level3/rivermesh_level3.fbx
+[13:50:50] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_Water.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:50] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/rivermesh_level3/riverMesh_level3_Albedo.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - LoadTexture failed to load file: ../assets/models/rivermesh_level3/
+[13:50:50] [Resource] [ModelLoader] - defaulting to chequered error sprite!
+[13:50:50] [Resource] [ModelLoader] - LoadTexture failed to load file: ../assets/models/rivermesh_level3/
+[13:50:50] [Resource] [ModelLoader] - texture was set to default Full black!
+[13:50:50] [Resource] [ModelLoader] - LoadTexture failed to load file: ../assets/models/rivermesh_level3/
+[13:50:50] [Resource] [ModelLoader] - texture was set to default white texture!
+[13:50:50] [Resource] [ModelLoader] - LoadTexture failed to load file: ../assets/models/rivermesh_level3/
+[13:50:50] [Resource] [ModelLoader] - texture was set to default Full black!
+[13:50:50] [Resource] [ModelLoader] - LoadTexture failed to load file: ../assets/models/rivermesh_level3/
+[13:50:50] [Resource] [ModelLoader] - texture was set to default Full black!
+[13:50:50] [Resource] [ModelLoader] - Creating Model: ../assets/models/drawbridge/drawbridge.fbx
+[13:50:50] [Resource] Shader Already loaded from path | ../assets/shaders/VS_DEFModelAnimatedDefault.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:50] [Resource] Shader Already loaded from path | ../assets/shaders/PS_DEFModelAnimatedDefault.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:50] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/drawbridge/drawBridge_Albedo.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/drawbridge/drawBridge_Normals.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/drawbridge/drawBridge_Roughness.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/drawbridge/drawBridge_AmbientOcclusion.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/drawbridge/drawBridge_Emissive.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/drawbridge/drawBridge_Metallic.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Creating Model: ../assets/models/breakablewall/breakablewall_3.fbx
+[13:50:50] [Resource] Shader Already loaded from path | ../assets/shaders/VS_DEFModelAnimatedDefault.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:50] [Resource] Shader Already loaded from path | ../assets/shaders/PS_DEFModelAnimatedDefault.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:50] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/breakablewall/breakableWall_3_Albedo.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/breakablewall/breakableWall_3_Normals.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/breakablewall/breakableWall_3_Roughness.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/breakablewall/breakableWall_3_AmbientOcclusion.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/breakablewall/breakableWall_3_Emissive.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/breakablewall/breakableWall_3_Metallic.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Creating Model: ../assets/models/rivermesh_small_level3/rivermesh_small_level3.fbx
+[13:50:50] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_Water.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:50] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_Water_Level3.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:50] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/rivermesh_small_level3/riverMesh_small_level3_Albedo.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - LoadTexture failed to load file: ../assets/models/rivermesh_small_level3/
+[13:50:50] [Resource] [ModelLoader] - defaulting to chequered error sprite!
+[13:50:50] [Resource] [ModelLoader] - LoadTexture failed to load file: ../assets/models/rivermesh_small_level3/
+[13:50:50] [Resource] [ModelLoader] - texture was set to default Full black!
+[13:50:50] [Resource] [ModelLoader] - LoadTexture failed to load file: ../assets/models/rivermesh_small_level3/
+[13:50:50] [Resource] [ModelLoader] - texture was set to default white texture!
+[13:50:50] [Resource] [ModelLoader] - LoadTexture failed to load file: ../assets/models/rivermesh_small_level3/
+[13:50:50] [Resource] [ModelLoader] - texture was set to default Full black!
+[13:50:50] [Resource] [ModelLoader] - LoadTexture failed to load file: ../assets/models/rivermesh_small_level3/
+[13:50:50] [Resource] [ModelLoader] - texture was set to default Full black!
+[13:50:50] [Resource] [ModelLoader] - Creating Model: ../assets/models/flowerlarge/flowerlarge.fbx
+[13:50:50] [Resource] Shader Already loaded from path | ../assets/shaders/VS_DEFModelAnimatedDefault.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:50] [Resource] Shader Already loaded from path | ../assets/shaders/PS_DEFModelAnimatedDefault.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:50] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/flowerlarge/flowerLarge_Albedo.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/flowerlarge/flowerLarge_Normals.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/flowerlarge/flowerLarge_Roughness.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/flowerlarge/flowerLarge_AmbientOcclusion.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/flowerlarge/flowerLarge_Emissive.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Texture ../assets/models/flowerlarge/flowerLarge_Metallic.dds load succeded
+[13:50:50] [Resource] [ModelLoader] - Creating Model: ../assets/models/mediumpalmtreepack/mediumpalmtreepack.fbx
+[13:50:51] [Resource] Shader Already loaded from path | ../assets/shaders/VS_DEFModelAnimatedDefault.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:51] [Resource] Shader Already loaded from path | ../assets/shaders/PS_DEFModelAnimatedDefault.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:51] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/mediumpalmtreepack/mediumPalmTreePack_Albedo.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/mediumpalmtreepack/mediumPalmTreePack_Normals.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/mediumpalmtreepack/mediumPalmTreePack_Roughness.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/mediumpalmtreepack/mediumPalmTreePack_AmbientOcclusion.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/mediumpalmtreepack/mediumPalmTreePack_Emissive.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/mediumpalmtreepack/mediumPalmTreePack_Metallic.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Creating Model: ../assets/models/signs/sign4/sign4.fbx
+[13:50:51] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:51] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:51] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign4/sign4_Albedo.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign4/sign4_Normals.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign4/sign4_Roughness.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign4/sign4_AmbientOcclusion.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign4/sign4_Emissive.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/signs/sign4/sign4_Metallic.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Creating Model: ../assets/models/jonaslevel_terrain01/jonaslevel_terrain01.fbx
+[13:50:51] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModelDefault.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:51] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_TerrainShader.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:51] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/jonaslevel_terrain01/JonasLevel_Terrain01_Albedo.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/jonaslevel_terrain01/JonasLevel_Terrain01_Normals.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/jonaslevel_terrain01/JonasLevel_Terrain01_Roughness.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/jonaslevel_terrain01/JonasLevel_Terrain01_AmbientOcclusion.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/jonaslevel_terrain01/JonasLevel_Terrain01_Emissive.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/jonaslevel_terrain01/JonasLevel_Terrain01_Metallic.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Creating Model: ../assets/models/rivermesh_level2/rivermesh_level2.fbx
+[13:50:51] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_Water.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:51] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_Water.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:51] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/rivermesh_level2/riverMesh_level2_Albedo.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - LoadTexture failed to load file: ../assets/models/rivermesh_level2/
+[13:50:51] [Resource] [ModelLoader] - defaulting to chequered error sprite!
+[13:50:51] [Resource] [ModelLoader] - LoadTexture failed to load file: ../assets/models/rivermesh_level2/
+[13:50:51] [Resource] [ModelLoader] - texture was set to default Full black!
+[13:50:51] [Resource] [ModelLoader] - LoadTexture failed to load file: ../assets/models/rivermesh_level2/
+[13:50:51] [Resource] [ModelLoader] - texture was set to default white texture!
+[13:50:51] [Resource] [ModelLoader] - LoadTexture failed to load file: ../assets/models/rivermesh_level2/
+[13:50:51] [Resource] [ModelLoader] - texture was set to default Full black!
+[13:50:51] [Resource] [ModelLoader] - LoadTexture failed to load file: ../assets/models/rivermesh_level2/
+[13:50:51] [Resource] [ModelLoader] - texture was set to default Full black!
+[13:50:51] [Resource] [ModelLoader] - Creating Model: ../assets/models/vasesmall/vasesmall.fbx
+[13:50:51] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:51] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:51] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/vasesmall/vaseSmall_Albedo.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/vasesmall/vaseSmall_Normals.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/vasesmall/vaseSmall_Roughness.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/vasesmall/vaseSmall_AmbientOcclusion.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/vasesmall/vaseSmall_Emissive.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/vasesmall/vaseSmall_Metallic.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Creating Model: ../assets/models/movableobject/movableobject.fbx
+[13:50:51] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:51] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:51] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/movableobject/movableObject_Albedo.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/movableobject/movableObject_Normals.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/movableobject/movableObject_Roughness.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/movableobject/movableObject_AmbientOcclusion.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/movableobject/movableObject_Emissive.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/movableobject/movableObject_Metallic.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Creating Model: ../assets/models/button/button.fbx
+[13:50:51] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:51] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:51] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/button/button_Albedo.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/button/button_Normals.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/button/button_Roughness.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/button/button_AmbientOcclusion.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/button/button_Emissive.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/button/button_Metallic.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Creating Model: ../assets/models/rockpiles/rockpile1/rockpile1.fbx
+[13:50:51] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:51] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:51] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/rockpiles/rockpile1/rockPile1_Albedo.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/rockpiles/rockpile1/rockPile1_Normals.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/rockpiles/rockpile1/rockPile1_Roughness.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/rockpiles/rockpile1/rockPile1_AmbientOcclusion.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/rockpiles/rockpile1/rockPile1_Emissive.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Texture ../assets/models/rockpiles/rockpile1/rockPile1_Metallic.dds load succeded
+[13:50:51] [Resource] [ModelLoader] - Creating Model: ../assets/models/deadlyplant/deadlyplant.fbx
+[13:50:51] [Resource] Shader Already loaded from path | ../assets/shaders/VS_DEFModelAnimatedDefault.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:52] [Resource] Shader Already loaded from path | ../assets/shaders/PS_DEFModelAnimatedDefault.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:52] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:52] [Resource] [ModelLoader] - Texture ../assets/models/deadlyplant/deadlyPlant_Albedo.dds load succeded
+[13:50:52] [Resource] [ModelLoader] - Texture ../assets/models/deadlyplant/deadlyPlant_Normals.dds load succeded
+[13:50:52] [Resource] [ModelLoader] - Texture ../assets/models/deadlyplant/deadlyPlant_Roughness.dds load succeded
+[13:50:52] [Resource] [ModelLoader] - Texture ../assets/models/deadlyplant/deadlyPlant_AmbientOcclusion.dds load succeded
+[13:50:52] [Resource] [ModelLoader] - Texture ../assets/models/deadlyplant/deadlyPlant_Emissive.dds load succeded
+[13:50:52] [Resource] [ModelLoader] - Texture ../assets/models/deadlyplant/deadlyPlant_Metallic.dds load succeded
+[13:50:52] [Resource] [ModelLoader] - Creating Model: ../assets/models/mushroom02/mushroom02.fbx
+[13:50:52] [Resource] Shader Already loaded from path | ../Assets/Shaders/VS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:52] [Resource] Shader Already loaded from path | ../Assets/Shaders/PS_DEFModel.hlsl | this is totally fine, but it's recommended to use Get[type]Shader instead!
+[13:50:52] [Resource] [ModelLoader] - InputLayout load succeded!
+[13:50:52] [Resource] [ModelLoader] - Texture ../assets/models/mushroom02/mushroom02_Albedo.dds load succeded
+[13:50:52] [Resource] [ModelLoader] - Texture ../assets/models/mushroom02/mushroom02_Normals.dds load succeded
+[13:50:52] [Resource] [ModelLoader] - Texture ../assets/models/mushroom02/mushroom02_Roughness.dds load succeded
+[13:50:52] [Resource] [ModelLoader] - Texture ../assets/models/mushroom02/mushroom02_AmbientOcclusion.dds load succeded
+[13:50:52] [Resource] [ModelLoader] - Texture ../assets/models/mushroom02/mushroom02_Emissive.dds load succeded
+[13:50:52] [Resource] [ModelLoader] - Texture ../assets/models/mushroom02/mushroom02_Metallic.dds load succeded
+[13:50:53] [Resource] [CSpriteLoader] - Creating sprite : ../assets/sprites/tutorial/leftmousetutorial.dds
+[13:50:53] [Resource] [CSpriteLoader] - Texture load succeded
+[13:50:53] [Resource] [CSpriteLoader] - VertexBuffer load succeded
+[13:50:53] [Resource] [CSpriteLoader] - IndexBuffer load succeded
+[13:50:53] [Resource] [CSpriteLoader] - InputLayout load succeded
+[13:50:53] [Resource] [CSpriteLoader] - Done

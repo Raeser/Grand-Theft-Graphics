@@ -1,0 +1,96 @@
+{
+    "JsonDocument": [
+        {
+            "ObjectData": [],
+            "MovableObjectData": [],
+            "TriggerData": [
+                {
+                    "position": {
+                        "x": 10.019999980926514,
+                        "y": 0.0,
+                        "z": 0.13000011444091798
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 3.361370086669922,
+                        "y": 1.0,
+                        "z": 2.551187038421631
+                    },
+                    "hasBoxCollider": true,
+                    "radius": 0.0,
+                    "myLuaFile": "Robin_1.lua",
+                    "linkedObjectID": ""
+                },
+				{
+                    "position": {
+                        "x": 20.019999980926514,
+                        "y": 0.0,
+                        "z": 0.13000011444091798
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 3.361370086669922,
+                        "y": 1.0,
+                        "z": 2.551187038421631
+                    },
+                    "hasBoxCollider": true,
+                    "radius": 0.0,
+                    "myLuaFile": "Robin_2.lua",
+                    "linkedObjectID": ""
+                },
+				{
+                    "position": {
+                        "x": 30.019999980926514,
+                        "y": 0.0,
+                        "z": 0.13000011444091798
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 3.361370086669922,
+                        "y": 1.0,
+                        "z": 2.551187038421631
+                    },
+                    "hasBoxCollider": true,
+                    "radius": 0.0,
+                    "myLuaFile": "Robin_3.lua",
+                    "linkedObjectID": ""
+                },
+				{
+                    "position": {
+                        "x": 40.019999980926514,
+                        "y": 0.0,
+                        "z": 0.13000011444091798
+                    },
+                    "rotation": {
+                        "x": 0.0,
+                        "y": 0.0,
+                        "z": 0.0
+                    },
+                    "size": {
+                        "x": 3.361370086669922,
+                        "y": 1.0,
+                        "z": 2.551187038421631
+                    },
+                    "hasBoxCollider": true,
+                    "radius": 0.0,
+                    "myLuaFile": "Robin_4.lua",
+                    "linkedObjectID": ""
+                }
+            ],
+            "PointLightData": [],
+            "SpotLightData": []
+        }
+    ]
+}
