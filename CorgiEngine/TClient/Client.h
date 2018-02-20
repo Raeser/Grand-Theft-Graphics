@@ -1,6 +1,9 @@
 #pragma once
 #include "Client_NetworkManager.h"
 #include <mutex>
+
+enum class ENetMessage : char;
+
 class CClient
 {
 public:
@@ -16,5 +19,9 @@ private:
 	int myRecievedMessageLength;
 	int mySizeOfaddr;
 	CClient_NetworkManager myNetworkManager;
+
+	short myNetworkID;
+
+	bool CheckConnectionToServer(ENetMessage aMessageType);
 };
 

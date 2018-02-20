@@ -28,7 +28,6 @@ bool CClient_NetworkManager::Init()
 	myHasConnected = false;
 	myConnectionTimer = 1.0f;
 
-
 	u_long nonBlock = 1;
 	if (ioctlsocket(mySocket, FIONBIO, &nonBlock) == SOCKET_ERROR)
 	{
@@ -79,10 +78,10 @@ bool CClient_NetworkManager::SendChatMessage(std::string & aMsg)
 	return true;
 }
 
-bool CClient_NetworkManager::SendPing()
+bool CClient_NetworkManager::PingServer()
 {
 	CNetMessage_Connect pingmess;
-	pingmess.Init(EConnectStatus::Ping);
+	pingmess.Init(EConnectStatus::Ping_ToServer);
 	pingmess.SetSenderID(myID);
 	pingmess.PackMessage();
 

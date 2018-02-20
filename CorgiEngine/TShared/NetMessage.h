@@ -6,7 +6,7 @@
 enum class ENetMessage : char
 {
 	Default,
-	Connect,
+	Connection,
 	Chat,
 	Confirmation,
 	count

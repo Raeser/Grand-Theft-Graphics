@@ -445,21 +445,6 @@
     </ClCompile>
     <ClCompile Include="PostMaster.cpp" />
     <ClCompile Include="TextToSpeechManager.cpp" />
-    <ClCompile Include="NavMeshEdge.cpp">
-      <Filter>NavMesh</Filter>
-    </ClCompile>
-    <ClCompile Include="NavMesh.cpp">
-      <Filter>NavMesh</Filter>
-    </ClCompile>
-    <ClCompile Include="NavmeshLoader.cpp">
-      <Filter>NavMesh</Filter>
-    </ClCompile>
-    <ClCompile Include="NavMeshTriangle.cpp">
-      <Filter>NavMesh</Filter>
-    </ClCompile>
-    <ClCompile Include="NavMeshVertex.cpp">
-      <Filter>NavMesh</Filter>
-    </ClCompile>
     <ClCompile Include="SpriteInWorldInstance.cpp" />
     <ClCompile Include="TikiWallCollider.cpp" />
   </ItemGroup>
@@ -693,21 +678,6 @@
     <ClInclude Include="ConstNavmeshStructs.h">
       <Filter>NavMesh</Filter>
     </ClInclude>
-    <ClInclude Include="NavMesh.h">
-      <Filter>NavMesh</Filter>
-    </ClInclude>
-    <ClInclude Include="NavMeshEdge.h">
-      <Filter>NavMesh</Filter>
-    </ClInclude>
-    <ClInclude Include="NavmeshLoader.h">
-      <Filter>NavMesh</Filter>
-    </ClInclude>
-    <ClInclude Include="NavMeshTriangle.h">
-      <Filter>NavMesh</Filter>
-    </ClInclude>
-    <ClInclude Include="NavMeshVertex.h">
-      <Filter>NavMesh</Filter>
-    </ClInclude>
     <ClInclude Include="SpriteInWorldInstance.h" />
     <ClInclude Include="TikiWallCollider.h" />
   </ItemGroup>
@@ -718,9 +688,6 @@
     </None>
     <None Include="CS_Skybox.hlsli">
       <Filter>Shaders\HLSL\Skybox</Filter>
-    </None>
-    <None Include="CS_Fullscreen.hlsli">
-      <Filter>Shaders\HLSL\FullscreenShaders</Filter>
     </None>
     <None Include="CS_Particle.hlsli">
       <Filter>Shaders\HLSL\Particles</Filter>
@@ -736,9 +703,6 @@
     </None>
     <None Include="CS_DEFModel.hlsli">
       <Filter>Shaders\HLSL\ModelShader\DeferredRendering\DataCollection\Global</Filter>
-    </None>
-    <None Include="CS_Line.hlsli">
-      <Filter>Shaders\HLSL\LineShader</Filter>
     </None>
     <None Include="CS_Text.hlsli">
       <Filter>Shaders\HLSL\Text</Filter>
@@ -802,24 +766,6 @@
     <FxCompile Include="VS_Skybox.hlsl">
       <Filter>Shaders\HLSL\Skybox</Filter>
     </FxCompile>
-    <FxCompile Include="VS_Fullscreen.hlsl">
-      <Filter>Shaders\HLSL\FullscreenShaders</Filter>
-    </FxCompile>
-    <FxCompile Include="PS_FullscreenCopy.hlsl">
-      <Filter>Shaders\HLSL\FullscreenShaders\Copy</Filter>
-    </FxCompile>
-    <FxCompile Include="PS_BloomAdd.hlsl">
-      <Filter>Shaders\HLSL\FullscreenShaders\Bloom</Filter>
-    </FxCompile>
-    <FxCompile Include="PS_BloomLuminance.hlsl">
-      <Filter>Shaders\HLSL\FullscreenShaders\Bloom</Filter>
-    </FxCompile>
-    <FxCompile Include="PS_GaussianBlurHorizontal.hlsl">
-      <Filter>Shaders\HLSL\FullscreenShaders\Blur</Filter>
-    </FxCompile>
-    <FxCompile Include="PS_GaussianBlurVertical.hlsl">
-      <Filter>Shaders\HLSL\FullscreenShaders\Blur</Filter>
-    </FxCompile>
     <FxCompile Include="GS_Particle.hlsl">
       <Filter>Shaders\HLSL\Particles</Filter>
     </FxCompile>
@@ -856,17 +802,8 @@
     <FxCompile Include="VS_DEFCockpit.hlsl">
       <Filter>Shaders\HLSL\ModelShader\DeferredRendering\DataCollection\Local</Filter>
     </FxCompile>
-    <FxCompile Include="PS_FullScreenAdd.hlsl">
-      <Filter>Shaders\HLSL\FullscreenShaders\Add</Filter>
-    </FxCompile>
     <FxCompile Include="PS_DEFCockpit.hlsl">
       <Filter>Shaders\HLSL\ModelShader\DeferredRendering\DataCollection\Local</Filter>
-    </FxCompile>
-    <FxCompile Include="PS_Line.hlsl">
-      <Filter>Shaders\HLSL\LineShader</Filter>
-    </FxCompile>
-    <FxCompile Include="VS_Line.hlsl">
-      <Filter>Shaders\HLSL\LineShader</Filter>
     </FxCompile>
     <FxCompile Include="VS_Text.hlsl">
       <Filter>Shaders\HLSL\Text</Filter>

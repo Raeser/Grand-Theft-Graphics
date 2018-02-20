@@ -33,29 +33,10 @@ void CClient::Update()
 	if (myRecievedMessageLength > 0)
 	{
 		ENetMessage msgType = (ENetMessage)myNetworkManager.GetBuffer()[0];
-		if (!myIsConnectedToServer)
-		{
-			if (msgType == ENetMessage::Confirmation)
-			{
-				CNetMessage_Confirmation message;
-				message.UnPackMessage(myNetworkManager.GetBuffer(), myRecievedMessageLength);
-				if (message.GetStatus() == EConfirmationStatus::Connection_Established)
-				{
-					short id = message.GetTargetID();
-					myNetworkManager.SetID(id);
-					std::cout << "Connection To Server Successfully! My ID is: " << id << std::endl;
-					myNetworkManager.SetConnectionStatus(true);
-				}
-				else
-				{
-					PRINT_ERROR("ERROR");
-				}
-			}
-		}
-		else
-		{
 
 
+		if (CheckConnectionToServer(msgType))
+		{
 			if (msgType == ENetMessage::Chat)
 			{
 				CNetMessageChatMessage message;
@@ -63,17 +44,13 @@ void CClient::Update()
 				std::cout << message.GetChatMessage() << std::endl;
 			}
 
-
-			if (msgType == ENetMessage::Confirmation)
-			{
-			}
-			if (msgType == ENetMessage::Connect)
+			if (msgType == ENetMessage::Connection)
 			{
 				CNetMessage_Connect message;
 				message.UnPackMessage(myNetworkManager.GetBuffer(), myRecievedMessageLength);
-				if (message.GetConnectStatus() == EConnectStatus::Ping)
+				if (message.GetConnectStatus() == EConnectStatus::Ping_ToClient)
 				{
-					myNetworkManager.SendPing();
+					myNetworkManager.PingServer();
 				}
 			}
 		}
@@ -86,4 +63,28 @@ void CClient::Update()
 void CClient::Shutdown()
 {
 	myNetworkManager.Cleanup();
+}
+
+bool CClient::CheckConnectionToServer(ENetMessage aMessageType)
+{
+	if (aMessageType == ENetMessage::Confirmation)
+	{
+		CNetMessage_Confirmation message;
+		message.UnPackMessage(myNetworkManager.GetBuffer(), myRecievedMessageLength);
+		if (message.GetStatus() == EConfirmationStatus::Connection_Established)
+		{
+			short id = message.GetTargetID();
+			myNetworkManager.SetID(id);
+			std::cout << "Connection To Server Successfully! My ID is: " << id << std::endl;
+			myNetworkID = id;
+			myNetworkManager.SetConnectionStatus(true);
+			myIsConnectedToServer = true;
+		}
+		else
+		{
+			PRINT_ERROR("ERROR");
+		}
+	}
+
+	return myIsConnectedToServer;
 }

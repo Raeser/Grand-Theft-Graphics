@@ -111,3 +111,6 @@ CorgiEngine/Launcher/PS_PBLModel.cso
 CorgiEngine/debug.log
 Junk/Debug/Launcher/Launcher.res
 CorgiEngine/Launcher/PS_PBLModel.cso
+*.suo
+/CorgiEngine/.vs/Engine/v14
+/CorgiEngine/.vs/Engine/v15

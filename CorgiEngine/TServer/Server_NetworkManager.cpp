@@ -37,7 +37,7 @@ bool CServer_NetworkManager::Init()
 	return true;
 }
 
-bool CServer_NetworkManager::AddClient(sockaddr_in & aSocketAddress)
+short CServer_NetworkManager::AddClient(sockaddr_in & aSocketAddress)
 {
 	static short client_counter = 667;
 	SClientData newClient;
@@ -64,7 +64,7 @@ bool CServer_NetworkManager::AddClient(sockaddr_in & aSocketAddress)
 	connectionMessage.PackMessage();
 	SendMessageAll(&connectionMessage);
 
-	return true;
+	return newClient.id;
 }
 
 bool CServer_NetworkManager::RemoveClient(unsigned short aID)
@@ -115,8 +115,7 @@ bool CServer_NetworkManager::SendMessageToTarget(const CNetMessage * aSerialized
 	for (SClientData& client : myClients)
 	{
 		if (client.id == target)
-		{
-			if (sendto(mySocket, &aSerializedMessage->myStream[0], (int)aSerializedMessage->myStream.size(), 0, (sockaddr*)&client.clientSocketAddress, sizeof(sockaddr_in)) == SOCKET_ERROR)
+		{	if (sendto(mySocket, &aSerializedMessage->myStream[0], (int)aSerializedMessage->myStream.size(), 0, (sockaddr*)&client.clientSocketAddress, sizeof(sockaddr_in)) == SOCKET_ERROR)
 			{
 				PRINT_ERROR("Failed to send chat message");
 				return false;
@@ -150,7 +149,7 @@ void CServer_NetworkManager::RemoveOldClients(std::vector<unsigned short>& oldPi
 	for (SClientData& client : myClients)
 	{
 		CNetMessage_Connect ping;
-		ping.Init(EConnectStatus::Ping);
+		ping.Init(EConnectStatus::Ping_ToClient);
 		ping.PackMessage();
 		ping.SetTargetID(client.id);
 
@@ -166,7 +165,7 @@ void CServer_NetworkManager::PingAllClients()
 	for (SClientData& client : myClients)
 	{
 		CNetMessage_Connect ping;
-		ping.Init(EConnectStatus::Ping);
+		ping.Init(EConnectStatus::Ping_ToClient);
 		ping.PackMessage();
 		ping.SetTargetID(client.id);
 

@@ -14,7 +14,7 @@ CNetMessage_Connect::~CNetMessage_Connect()
 void CNetMessage_Connect::Init(EConnectStatus aStatus)
 {
 	CNetMessage::Init();
-	myID = ENetMessage::Connect;
+	myID = ENetMessage::Connection;
 	myStatus = aStatus;
 }
 
