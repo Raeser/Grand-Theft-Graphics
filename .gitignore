@@ -78,3 +78,5 @@ _Working Build/Retail/Launcher_Retail_x64.lib
 _Working Build/Release/TClient_Release.exe
 *.cso
 Libs/Collision_Release_x64.lib
+CorgiEngine/Engine.VC.db
+CorgiEngine/.vs/Engine/v14/.suo
