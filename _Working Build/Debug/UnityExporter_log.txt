@@ -56,3 +56,119 @@
 [13:50:35] [UnityExporter] [UnityExporter] Total Colliders count: 1014
 [13:50:35] [UnityExporter] [UNITY EXPORTER] - END 
  ==========================================================================================
+[14:31:55] [UnityExporter] [UNITY EXPORTER] - Begin 
+ ==========================================================================================
+[14:31:55] [UnityExporter] [UNITY EXPORTER] - Loading Levels
+[14:31:56] [UnityExporter] [UNITYEXPORTER] >>> 
+[14:31:56] [UnityExporter] [UNITYEXPORTER] ../Assets/Data/UnityExport/TutorialLevel.json Loading data from jsonfile 
+[14:31:56] [UnityExporter] [UNITYEXPORTER] ../Assets/Data/UnityExport/TutorialLevel.json Ended !  InstancesData loaded from JsonFile: 393
+[14:31:56] [UnityExporter] [UNITYEXPORTER] <<< 
+[14:31:56] [UnityExporter] [UnityExporter] Object count: 393
+[14:31:56] [UnityExporter] [UnityExporter] MovableObject count: 5
+[14:31:56] [UnityExporter] [UnityExporter] Trigger count: 11
+[14:31:56] [UnityExporter] [UnityExporter] ParticleEmittor count: 52
+[14:31:56] [UnityExporter] [UnityExporter] SpotLight count: 0
+[14:31:56] [UnityExporter] [UnityExporter] PointLight count: 17
+[14:31:56] [UnityExporter] [UnityExporter] AudiSplines count: 2
+[14:31:56] [UnityExporter] [UnityExporter] DataPoint count: 0
+[14:31:56] [UnityExporter] [UnityExporter] Colliders count: 3
+[14:31:56] [UnityExporter] [UnityExporter] Total Istances loaded from JsonFiles: 483
+[14:31:57] [UnityExporter] [UNITYEXPORTER] >>> 
+[14:31:57] [UnityExporter] [UNITYEXPORTER] ../Assets/Data/UnityExport/JonasLevel.json Loading data from jsonfile 
+[14:31:57] [UnityExporter] [UNITYEXPORTER] ../Assets/Data/UnityExport/JonasLevel.json Ended !  InstancesData loaded from JsonFile: 823
+[14:31:57] [UnityExporter] [UNITYEXPORTER] <<< 
+[14:31:57] [UnityExporter] [UnityExporter] Object count: 823
+[14:31:57] [UnityExporter] [UnityExporter] MovableObject count: 17
+[14:31:57] [UnityExporter] [UnityExporter] Trigger count: 19
+[14:31:57] [UnityExporter] [UnityExporter] ParticleEmittor count: 18
+[14:31:57] [UnityExporter] [UnityExporter] SpotLight count: 0
+[14:31:57] [UnityExporter] [UnityExporter] PointLight count: 6
+[14:31:57] [UnityExporter] [UnityExporter] AudiSplines count: 0
+[14:31:57] [UnityExporter] [UnityExporter] DataPoint count: 0
+[14:31:57] [UnityExporter] [UnityExporter] Colliders count: 18
+[14:31:57] [UnityExporter] [UnityExporter] Total Istances loaded from JsonFiles: 901
+[14:31:59] [UnityExporter] [UNITYEXPORTER] >>> 
+[14:31:59] [UnityExporter] [UNITYEXPORTER] ../Assets/Data/UnityExport/AnnettesLevel.json Loading data from jsonfile 
+[14:31:59] [UnityExporter] [UNITYEXPORTER][Object] WARNING Object at index: 9 -- path string was more then 1 in JsonFile: ../Assets/Data/UnityExport/AnnettesLevel.json
+[14:31:59] [UnityExporter] [UNITYEXPORTER] ../Assets/Data/UnityExport/AnnettesLevel.json Ended !  InstancesData loaded from JsonFile: 989
+[14:31:59] [UnityExporter] [UNITYEXPORTER] <<< 
+[14:31:59] [UnityExporter] [UnityExporter] Object count: 989
+[14:31:59] [UnityExporter] [UnityExporter] MovableObject count: 15
+[14:31:59] [UnityExporter] [UnityExporter] Trigger count: 45
+[14:31:59] [UnityExporter] [UnityExporter] ParticleEmittor count: 82
+[14:31:59] [UnityExporter] [UnityExporter] SpotLight count: 0
+[14:31:59] [UnityExporter] [UnityExporter] PointLight count: 20
+[14:31:59] [UnityExporter] [UnityExporter] AudiSplines count: 2
+[14:31:59] [UnityExporter] [UnityExporter] DataPoint count: 0
+[14:31:59] [UnityExporter] [UnityExporter] Colliders count: 0
+[14:31:59] [UnityExporter] [UnityExporter] Total Istances loaded from JsonFiles: 1153
+[14:31:59] [UnityExporter] [UnityExporter] Summary: 
+[14:31:59] [UnityExporter] [UnityExporter] Total Object count: 2205
+[14:31:59] [UnityExporter] [UnityExporter] Total MovableObject count: 37
+[14:31:59] [UnityExporter] [UnityExporter] Total Trigger count: 75
+[14:31:59] [UnityExporter] [UnityExporter] Total ParticleEmittor count: 152
+[14:31:59] [UnityExporter] [UnityExporter] Total SpotLight count: 0
+[14:31:59] [UnityExporter] [UnityExporter] Total PointLight count: 43
+[14:31:59] [UnityExporter] [UnityExporter] Total AudiSplines count: 4
+[14:31:59] [UnityExporter] [UnityExporter] Total DataPoint count: 0
+[14:31:59] [UnityExporter] [UnityExporter] Total Colliders count: 1014
+[14:31:59] [UnityExporter] [UNITY EXPORTER] - END 
+ ==========================================================================================
+[14:40:02] [UnityExporter] [UNITY EXPORTER] - Begin 
+ ==========================================================================================
+[14:40:02] [UnityExporter] [UNITY EXPORTER] - Loading Levels
+[14:40:03] [UnityExporter] [UNITYEXPORTER] >>> 
+[14:40:03] [UnityExporter] [UNITYEXPORTER] ../Assets/Data/UnityExport/TutorialLevel.json Loading data from jsonfile 
+[14:40:03] [UnityExporter] [UNITYEXPORTER] ../Assets/Data/UnityExport/TutorialLevel.json Ended !  InstancesData loaded from JsonFile: 393
+[14:40:03] [UnityExporter] [UNITYEXPORTER] <<< 
+[14:40:03] [UnityExporter] [UnityExporter] Object count: 393
+[14:40:03] [UnityExporter] [UnityExporter] MovableObject count: 5
+[14:40:03] [UnityExporter] [UnityExporter] Trigger count: 11
+[14:40:03] [UnityExporter] [UnityExporter] ParticleEmittor count: 52
+[14:40:03] [UnityExporter] [UnityExporter] SpotLight count: 0
+[14:40:03] [UnityExporter] [UnityExporter] PointLight count: 17
+[14:40:03] [UnityExporter] [UnityExporter] AudiSplines count: 2
+[14:40:03] [UnityExporter] [UnityExporter] DataPoint count: 0
+[14:40:03] [UnityExporter] [UnityExporter] Colliders count: 3
+[14:40:03] [UnityExporter] [UnityExporter] Total Istances loaded from JsonFiles: 483
+[14:40:04] [UnityExporter] [UNITYEXPORTER] >>> 
+[14:40:04] [UnityExporter] [UNITYEXPORTER] ../Assets/Data/UnityExport/JonasLevel.json Loading data from jsonfile 
+[14:40:04] [UnityExporter] [UNITYEXPORTER] ../Assets/Data/UnityExport/JonasLevel.json Ended !  InstancesData loaded from JsonFile: 823
+[14:40:04] [UnityExporter] [UNITYEXPORTER] <<< 
+[14:40:04] [UnityExporter] [UnityExporter] Object count: 823
+[14:40:04] [UnityExporter] [UnityExporter] MovableObject count: 17
+[14:40:04] [UnityExporter] [UnityExporter] Trigger count: 19
+[14:40:04] [UnityExporter] [UnityExporter] ParticleEmittor count: 18
+[14:40:04] [UnityExporter] [UnityExporter] SpotLight count: 0
+[14:40:04] [UnityExporter] [UnityExporter] PointLight count: 6
+[14:40:04] [UnityExporter] [UnityExporter] AudiSplines count: 0
+[14:40:04] [UnityExporter] [UnityExporter] DataPoint count: 0
+[14:40:04] [UnityExporter] [UnityExporter] Colliders count: 18
+[14:40:04] [UnityExporter] [UnityExporter] Total Istances loaded from JsonFiles: 901
+[14:40:06] [UnityExporter] [UNITYEXPORTER] >>> 
+[14:40:06] [UnityExporter] [UNITYEXPORTER] ../Assets/Data/UnityExport/AnnettesLevel.json Loading data from jsonfile 
+[14:40:06] [UnityExporter] [UNITYEXPORTER][Object] WARNING Object at index: 9 -- path string was more then 1 in JsonFile: ../Assets/Data/UnityExport/AnnettesLevel.json
+[14:40:06] [UnityExporter] [UNITYEXPORTER] ../Assets/Data/UnityExport/AnnettesLevel.json Ended !  InstancesData loaded from JsonFile: 989
+[14:40:06] [UnityExporter] [UNITYEXPORTER] <<< 
+[14:40:06] [UnityExporter] [UnityExporter] Object count: 989
+[14:40:06] [UnityExporter] [UnityExporter] MovableObject count: 15
+[14:40:06] [UnityExporter] [UnityExporter] Trigger count: 45
+[14:40:06] [UnityExporter] [UnityExporter] ParticleEmittor count: 82
+[14:40:06] [UnityExporter] [UnityExporter] SpotLight count: 0
+[14:40:06] [UnityExporter] [UnityExporter] PointLight count: 20
+[14:40:06] [UnityExporter] [UnityExporter] AudiSplines count: 2
+[14:40:06] [UnityExporter] [UnityExporter] DataPoint count: 0
+[14:40:06] [UnityExporter] [UnityExporter] Colliders count: 0
+[14:40:06] [UnityExporter] [UnityExporter] Total Istances loaded from JsonFiles: 1153
+[14:40:06] [UnityExporter] [UnityExporter] Summary: 
+[14:40:06] [UnityExporter] [UnityExporter] Total Object count: 2205
+[14:40:06] [UnityExporter] [UnityExporter] Total MovableObject count: 37
+[14:40:06] [UnityExporter] [UnityExporter] Total Trigger count: 75
+[14:40:06] [UnityExporter] [UnityExporter] Total ParticleEmittor count: 152
+[14:40:06] [UnityExporter] [UnityExporter] Total SpotLight count: 0
+[14:40:06] [UnityExporter] [UnityExporter] Total PointLight count: 43
+[14:40:06] [UnityExporter] [UnityExporter] Total AudiSplines count: 4
+[14:40:06] [UnityExporter] [UnityExporter] Total DataPoint count: 0
+[14:40:06] [UnityExporter] [UnityExporter] Total Colliders count: 1014
+[14:40:06] [UnityExporter] [UNITY EXPORTER] - END 
+ ==========================================================================================

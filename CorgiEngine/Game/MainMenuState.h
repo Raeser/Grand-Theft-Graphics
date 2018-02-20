@@ -31,13 +31,8 @@ private:
 
 	void PushInGameState();
 	void PushInGameState(int aLevelIndex);
-	void PushOptionstate();
-	void PushShowroomState();
-	void PushCreditsState();
 	void PopMainState();
 	void PopSubstate();
-	void PushSplashScreen();
-	void PushLevelSelect();
 
 	void PushConsoleState();
 

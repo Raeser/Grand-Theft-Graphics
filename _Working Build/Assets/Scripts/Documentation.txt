@@ -240,8 +240,3 @@ USE:         Plays an Wwise event at given location
 ----------------------------------------------------
 
 
-FUNCTION:    WinGame(No args) 
-USE:         Wins the Game
-----------------------------------------------------
-
-

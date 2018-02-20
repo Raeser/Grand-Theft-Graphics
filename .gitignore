@@ -1,0 +1,27 @@
+
+*.cso
+*.cso
+*.cso
+*.cso
+*.cso
+*.pch
+*.obj
+*.ilk
+*.ipch
+*.ipdb
+*.iobj
+*.exp
+*.cso
+*.tlog
+*.log
+CorgiEngine/.vs/Engine/v14/.suo
+*.idb
+*.pdb
+*.txt
+_Working Build/Assets/Shaders/PS_BloomAdd.cso
+_Working Build/Assets/Shaders/PS_BloomLuminance.cso
+*.txt
+*.opendb
+CorgiEngine/Engine.VC.db
+*.cache
+*.obj

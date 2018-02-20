@@ -1,7 +1,6 @@
 #pragma once
 #include <chrono>
 #include <numeric>
-#include "stdafx.h"
 
 
 
@@ -28,15 +27,27 @@ public:
 
 		return timer;
 	}
-	~Timer();
+	~Timer() {}
 
 	Timer(const Timer& aTimer) = delete;
 	Timer& operator=(const Timer& aTimer) = delete;
 
-	void Update();
+	void Update()
+	{
+		myTimeLastFrame = myCurrentTime;
+		myCurrentTime = std::chrono::high_resolution_clock::now();
+		std::chrono::duration<float> dt = myCurrentTime - myTimeLastFrame;
+		myDeltaTime = dt.count();
+		myTotalTime += myDeltaTime;
 
-	const float& GetDeltaTime() const;
-	const float& GetTotalTime() const;
+		if (myDeltaTime > 0.1)
+		{
+			myDeltaTime = 0.1f;
+		}
+	}
+
+	float GetDeltaTime() const { return myDeltaTime; }
+	float GetTotalTime() const { return myTotalTime; }
 
 private:
 

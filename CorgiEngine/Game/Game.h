@@ -1,4 +1,5 @@
 #include "stdafx.h"
+#include "..\TClient\Client.h"
 
 class CGameConsole;
 class CEngine;
@@ -17,7 +18,13 @@ public:
 
 	bool UpdateStateStack();	
 
+
 private:
+	void InitNetworkClient();
+	void UpdateNetworkClient();
+
+	CClient myNetworkClient;
+	std::thread myNetworkThread;
 
 	CEngine& myGameEngine;
 	CGameConsole& myGameConsole;

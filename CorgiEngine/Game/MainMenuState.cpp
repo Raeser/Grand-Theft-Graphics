@@ -79,14 +79,6 @@ void CMainMenuState::OnEnter()
 	myTimeInState = 0.f;
 	mySpriteInstance->SetShouldRender(true);
 	myUIManager.SetIsActive(true);
-
-	if (!myHasPushedSplash) 
-	{
-#ifndef _DEBUG
-		PushSplashScreen();
-#endif
-		myHasPushedSplash = true;
-	}
 }
 
 void CMainMenuState::OnExit()
