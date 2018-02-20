@@ -4,6 +4,7 @@
 enum class EConnectStatus : char
 {
 	Connect,
+	Connection_Established,
 	Disconnect,
 	Ping,
 	count

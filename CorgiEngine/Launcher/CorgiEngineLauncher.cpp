@@ -90,7 +90,6 @@ void CorgiEngineLauncher::HandleCommandlines(int argc, char * argv[])
 			}
 		}
 	}
-
 	if (CommandLineManager::GetInstance().HasParameter("-activelog"))
 	{
 		if (CommandLineManager::GetInstance().HasArgument("-activelog", "Resource"))
@@ -114,14 +113,14 @@ void CorgiEngineLauncher::HandleCommandlines(int argc, char * argv[])
 			DebugLog::GetInstance().ActivateFilterlog(eDebugLogType::Timer);
 		}
 	}
-	DebugLog::GetInstance().ActivateFilterlog(eDebugLogType::Timer);
-	DebugLog::GetInstance().ActivateFilterlog(eDebugLogType::Shader);
-	DebugLog::GetInstance().ActivateFilterlog(eDebugLogType::Resource);
-	DebugLog::GetInstance().ActivateFilterlog(eDebugLogType::UnityExporter);
-	DebugLog::GetInstance().ActivateFilterlog(eDebugLogType::ResultMessages);
-	DebugLog::GetInstance().ActivateFilterlog(eDebugLogType::Error);
-	DebugLog::GetInstance().ActivateFilterlog(eDebugLogType::Script);
-	DebugLog::GetInstance().ActivateFilterlog(eDebugLogType::Resource);
+	//DebugLog::GetInstance().ActivateFilterlog(eDebugLogType::Timer);
+	//DebugLog::GetInstance().ActivateFilterlog(eDebugLogType::Shader);
+	//DebugLog::GetInstance().ActivateFilterlog(eDebugLogType::Resource);
+	//DebugLog::GetInstance().ActivateFilterlog(eDebugLogType::UnityExporter);
+	//DebugLog::GetInstance().ActivateFilterlog(eDebugLogType::ResultMessages);
+	//DebugLog::GetInstance().ActivateFilterlog(eDebugLogType::Error);
+	//DebugLog::GetInstance().ActivateFilterlog(eDebugLogType::Script);
+	//DebugLog::GetInstance().ActivateFilterlog(eDebugLogType::Resource);
 
 #endif
 }

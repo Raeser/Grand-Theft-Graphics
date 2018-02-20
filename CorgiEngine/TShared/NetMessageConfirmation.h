@@ -4,6 +4,7 @@
 enum class EConfirmationStatus : char 
 {
 	Success,
+	Connection_Established,
 	Failed,
 	Banned,
 	count

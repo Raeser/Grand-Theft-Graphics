@@ -26,6 +26,7 @@ CorgiEngine/Engine.VC.db
 *.cache
 *.obj
 *.cso
+Junk/*
 _Working Build/Assets/Shaders/PS_BloomLuminance.cso
 _Working Build/Assets/Shaders/PS_FullScreenAdd.cso
 _Working Build/Debug/Launcher_Debug_x64.exe
@@ -54,3 +55,11 @@ Libs/Utilities_Retail_x64.lib
 _Working Build/Debug/Launcher_Debug_x64.lib
 _Working Build/Debug/Launcher_Debug_x64.ilk
 _Working Build/Debug/Launcher_Debug_x64.exp
+Libs/Engine_Debug_x64.lib
+Libs/Game_Debug_x64.lib
+Libs/TClient_Debug_x64.lib
+Libs/TShared_Debug_x64.lib
+CorgiEngine/x64/Debug/TShared_Debug.lib
+CorgiEngine/x64/Debug/TServer_Debug.exe
+CorgiEngine/x64/Debug/TClient_Debug.exe
+*.cso

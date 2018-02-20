@@ -11,14 +11,10 @@ public:
 	void Shutdown();
 
 private:
-	void InputThreadFunction();
 
-	int recievedMessageLength;
-	int sizeOfaddr;
-	std::string myInput;
+	bool myIsConnectedToServer;
+	int myRecievedMessageLength;
+	int mySizeOfaddr;
 	CClient_NetworkManager myNetworkManager;
-	bool myIsRunning;
-	bool myUsedInput;
-	std::thread myInputThread;
 };
 

@@ -5,6 +5,7 @@ class CEngine;
 class CInGameState;
 class CMainMenuState;
 class CClient;
+
 class CGame
 {
 public:
@@ -22,8 +23,11 @@ private:
 	void InitNetworkClient();
 	void UpdateNetworkClient();
 
+
 	CClient* myNetworkClient;
 	std::thread myNetworkThread;
+	bool myShouldUpdateNetwork;
+
 
 	CEngine& myGameEngine;
 	CGameConsole& myGameConsole;

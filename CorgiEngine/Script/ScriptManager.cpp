@@ -26,7 +26,7 @@ CScriptManager::~CScriptManager()
 void CScriptManager::Init()
 {
 	myFiles.Init(512);
-	myExposedFunctions.Init(512);
+	myExposedFunctions.Init(1024);
 	myFunctionsToRegister.Init(32);
 
 	myDocumentationFile = "../Assets/Scripts/Documentation.txt";

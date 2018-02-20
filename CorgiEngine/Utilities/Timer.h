@@ -49,9 +49,9 @@ public:
 	float GetDeltaTime() const { return myDeltaTime; }
 	float GetTotalTime() const { return myTotalTime; }
 
+	Timer() {};
 private:
 
-	Timer() {};
 
 	float myDeltaTime = 0;
 	float myTotalTime = 0;

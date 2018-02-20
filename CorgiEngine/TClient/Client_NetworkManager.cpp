@@ -16,32 +16,18 @@ bool CClient_NetworkManager::Init()
 {
 	CShared_NetworkManager::Init();
 
-	std::cout << "Input Server IP to connect to: ";
-	std::getline(std::cin, myConnectedServerIP);
 
-	if (myConnectedServerIP.size() < 1)
-	{
-		myConnectedServerIP = "127.0.0.1";
-	}
+	myConnectedServerIP = "127.0.0.1";
+	
 
 	std::cout << "\nConnecting to: " << myConnectedServerIP << std::endl;
 	mySocketAddress.sin_family = AF_INET;
 	mySocketAddress.sin_port = htons(PORT);
 	inet_pton(AF_INET, myConnectedServerIP.c_str(), &(mySocketAddress.sin_addr));
 
-	std::cout << "Enter Username: ";
-	std::string name;
-	std::getline(std::cin, name);
+	myHasConnected = false;
+	myConnectionTimer = 1.0f;
 
-	if (name.size() < 1)
-	{
-		name = "Ralle";
-	}
-	std::cout << "Hello " << name << std::endl;
-	if (!SendHandShakeMessage(name))
-	{
-		return false;
-	}
 
 	u_long nonBlock = 1;
 	if (ioctlsocket(mySocket, FIONBIO, &nonBlock) == SOCKET_ERROR)
@@ -52,46 +38,27 @@ bool CClient_NetworkManager::Init()
 	PRINT_ERROR("Succeded on Set Non-Blocking on client socket\n");
 
 
+	if (!SendHandShakeMessage())
+	{
+		return false;
+	}
 	return true;
 }
 
-bool CClient_NetworkManager::SendHandShakeMessage(std::string& aName)
+bool CClient_NetworkManager::SendHandShakeMessage()
 {
 
 	CNetMessage_Connect handShakeMessage;
 	handShakeMessage.Init(EConnectStatus::Connect);
 	handShakeMessage.PackMessage();
 
-	if (sendto(mySocket, &handShakeMessage.myStream[0], handShakeMessage.myStream.size(), 0, (sockaddr*)&mySocketAddress, sizeof(sockaddr_in)) == SOCKET_ERROR)
+	if (sendto(mySocket, &handShakeMessage.myStream[0], (int)handShakeMessage.myStream.size(), 0, (sockaddr*)&mySocketAddress, sizeof(sockaddr_in)) == SOCKET_ERROR)
 	{
 		PRINT_ERROR("Failed to send Handshake message\n");
 		return false;
 	}
 
-	ZeroMemory(myBuffer, sizeof(myBuffer));
-	int socketSize = sizeof(mySocketAddress);
-	int messageSize = 0;
-
-	if ((messageSize = recvfrom(mySocket, myBuffer, BUFLEN, 0, (sockaddr*)&mySocketAddress, &socketSize)) == SOCKET_ERROR)
-	{
-		PRINT_ERROR("recvfrom() failed to receive confirmation Message\n");
-		return false;
-	}
-	
-	if ((ENetMessage)myBuffer[0] == ENetMessage::Confirmation)
-	{
-		CNetMessage_Confirmation message;
-		message.UnPackMessage(myBuffer, messageSize);
-		if (message.GetStatus() == EConfirmationStatus::Success)
-		{
-			myID = message.GetMessageID();
-			std::cout << "Connection To Server Successfully! My ID is: " << myID << std::endl;
-		}
-		else
-		{
-			PRINT_ERROR("ERROR");
-		}
-	}
+	//ZeroMemory(myBuffer, sizeof(myBuffer));
 
 
 	return true;
@@ -104,7 +71,7 @@ bool CClient_NetworkManager::SendChatMessage(std::string & aMsg)
 	chatMessage.SetSenderID(myID);
 	chatMessage.PackMessage();
 
-	if (sendto(mySocket, &chatMessage.myStream[0], chatMessage.myStream.size(), 0, (sockaddr*)&mySocketAddress, sizeof(sockaddr_in)) == SOCKET_ERROR)
+	if (sendto(mySocket, &chatMessage.myStream[0], (int)chatMessage.myStream.size(), 0, (sockaddr*)&mySocketAddress, sizeof(sockaddr_in)) == SOCKET_ERROR)
 	{
 		PRINT_ERROR("Failed to send chat message");
 		return false;
@@ -119,7 +86,7 @@ bool CClient_NetworkManager::SendPing()
 	pingmess.SetSenderID(myID);
 	pingmess.PackMessage();
 
-	if (sendto(mySocket, &pingmess.myStream[0], pingmess.myStream.size(), 0, (sockaddr*)&mySocketAddress, sizeof(sockaddr_in)) == SOCKET_ERROR)
+	if (sendto(mySocket, &pingmess.myStream[0], (int)pingmess.myStream.size(), 0, (sockaddr*)&mySocketAddress, sizeof(sockaddr_in)) == SOCKET_ERROR)
 	{
 		PRINT_ERROR("Failed to send chat message");
 		return false;
@@ -134,10 +101,37 @@ void CClient_NetworkManager::Cleanup()
 	disconnectMessage.SetSenderID(myID);
 	disconnectMessage.PackMessage();
 
-	if (sendto(mySocket, &disconnectMessage.myStream[0], disconnectMessage.myStream.size(), 0, (sockaddr*)&mySocketAddress, sizeof(sockaddr_in)) == SOCKET_ERROR)
+	if (sendto(mySocket, &disconnectMessage.myStream[0], (int)disconnectMessage.myStream.size(), 0, (sockaddr*)&mySocketAddress, sizeof(sockaddr_in)) == SOCKET_ERROR)
 	{
 		PRINT_ERROR("Failed to send Disconnect message\n");
 	}
 
 	CShared_NetworkManager::Cleanup();
+}
+
+void CClient_NetworkManager::Update()
+{
+	myTimer.Update();
+	if (!myHasConnected)
+	{
+		myConnectionTimer -= myTimer.GetDeltaTime();
+		if (myConnectionTimer <= 0)
+		{
+			std::cout << "Couldn't connect to server. Trying again!" << std::endl;
+			SendHandShakeMessage();
+			myConnectionTimer = 1.0f;
+		}
+	}
+
+
+}
+
+void CClient_NetworkManager::SetID(short id)
+{
+	myID = id;
+}
+
+void CClient_NetworkManager::SetConnectionStatus(bool aStatus)
+{
+	myHasConnected = aStatus;
 }

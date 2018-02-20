@@ -426,9 +426,6 @@ namespace Corgi
 	{
 		if (myNumberOfElements == myMaxSize)
 		{	
-			#ifdef _DEBUG
-					assert(false && "A GrowingArray grew. Fix it or work in release");
-			#endif
 			if (myMaxSize == 0)
 			{
 				Reserve(2);

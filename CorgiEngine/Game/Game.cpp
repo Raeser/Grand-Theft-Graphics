@@ -11,6 +11,12 @@ CGame::CGame(CEngine& aGameEngine, CGameConsole& aGameConsole) :
 
 CGame::~CGame()
 {
+	myShouldUpdateNetwork = false;
+	if (myNetworkThread.joinable())
+	{
+		myNetworkThread.join();
+	}
+
 }
 
 void CGame::Init()
@@ -24,6 +30,8 @@ void CGame::Init()
 	CEngineWrapper::GetInstance().Init(myGameEngine);
 
 	CCursor::GetInstance().SetIsActive(false);
+
+	InitNetworkClient();
 }
 
 bool CGame::IsWindowActive()
@@ -35,6 +43,26 @@ bool CGame::IsWindowActive()
 	return true;
 }
 
+
+void CGame::InitNetworkClient()
+{
+	myNetworkClient = new CClient();
+	myShouldUpdateNetwork = myNetworkClient->Init();
+
+
+	myNetworkThread = std::thread([&]() 
+	{	
+		UpdateNetworkClient();
+	}
+	);
+}
+void CGame::UpdateNetworkClient()
+{
+	while (myShouldUpdateNetwork)
+	{
+		myNetworkClient->Update();
+	}
+}
 
 bool CGame::Update()
 {

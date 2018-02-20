@@ -70,7 +70,7 @@ bool CServer_NetworkManager::AddClient(sockaddr_in & aSocketAddress)
 bool CServer_NetworkManager::RemoveClient(unsigned short aID)
 {
 
-	int size = myClients.size();
+	int size = (int)myClients.size();
 	for (int i = 0; i < size; ++i)
 	{
 		if (myClients[i].id == aID)
@@ -99,7 +99,7 @@ bool CServer_NetworkManager::SendMessageAll(const CNetMessage* aSerializedMessag
 	{
 		if (client.id != aSerializedMessage->GetSenderID())
 		{
-			if (sendto(mySocket, &aSerializedMessage->myStream[0], aSerializedMessage->myStream.size(), 0, (sockaddr*)&client.clientSocketAddress, sizeof(sockaddr_in)) == SOCKET_ERROR)
+			if (sendto(mySocket, &aSerializedMessage->myStream[0], (int)aSerializedMessage->myStream.size(), 0, (sockaddr*)&client.clientSocketAddress, sizeof(sockaddr_in)) == SOCKET_ERROR)
 			{
 				PRINT_ERROR("Failed to send chat message");
 				return false;
@@ -116,7 +116,7 @@ bool CServer_NetworkManager::SendMessageToTarget(const CNetMessage * aSerialized
 	{
 		if (client.id == target)
 		{
-			if (sendto(mySocket, &aSerializedMessage->myStream[0], aSerializedMessage->myStream.size(), 0, (sockaddr*)&client.clientSocketAddress, sizeof(sockaddr_in)) == SOCKET_ERROR)
+			if (sendto(mySocket, &aSerializedMessage->myStream[0], (int)aSerializedMessage->myStream.size(), 0, (sockaddr*)&client.clientSocketAddress, sizeof(sockaddr_in)) == SOCKET_ERROR)
 			{
 				PRINT_ERROR("Failed to send chat message");
 				return false;
