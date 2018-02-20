@@ -40,12 +40,12 @@ public:
 
 	void Destroy();
 
-	void BuildTikiEntity(Corgi::Vector3<float> aPos);
+	//void BuildTikiEntity(Corgi::Vector3<float> aPos);
 
 	CPlaneCollider GetPlane();
 	CEntity * GetPlayerEntity();
 
-	Corgi::Vector3<float> GetWaterSoundPoint(Corgi::Vector3<float> aLineStart, Corgi::Vector3<float> aLineEnd);
+	//Corgi::Vector3<float> GetWaterSoundPoint(Corgi::Vector3<float> aLineStart, Corgi::Vector3<float> aLineEnd);
 
 private:
 
@@ -55,7 +55,7 @@ private:
 
 	void PushVictory();
 
-	void TikiKiller(const char* id);
+	//void TikiKiller(const char* id);
 	void BuildPlayerEntity(const Vector3f& aPostion = Vector3f());
 
 	void RecieveMessage(const SMessage& message) override;

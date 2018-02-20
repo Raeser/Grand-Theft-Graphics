@@ -114,3 +114,9 @@ CorgiEngine/Launcher/PS_PBLModel.cso
 *.suo
 /CorgiEngine/.vs/Engine/v14
 /CorgiEngine/.vs/Engine/v15
+*.txt
+_Working Build/Debug/Launcher_Debug_x64.lib
+*.ilk
+*.exp
+CorgiEngine/Engine.VC.db
+CorgiEngine/.vs/Engine/v14/.suo

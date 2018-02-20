@@ -14,12 +14,14 @@
 #include <atomic>
 
 #include "..\Utilities\Vector.h"
+#include <thread>
 
 class CScene;
 class CCameraInstance;
 class CSpriteInstance;
 enum ModelLoaderSpace;
 class CParticleManager;
+class CClient;
 
 namespace Corgi
 {
@@ -67,6 +69,8 @@ public:
 	const Vector2int& GetWindowSize() const;
 	void UpdateCameraMovement();
 
+	void InitNetworkClient();
+	void DisconnectNetwork();
 private:
 	struct SDebugFeatures
 	{
@@ -77,6 +81,13 @@ private:
 	void LoadCameras();
 	void CreateSampleStates();
 	void LoadLights();
+
+
+	void UpdateNetworkClient();
+	CClient* myNetworkClient;
+	std::thread myNetworkThread;
+
+	bool myShouldUpdateNetwork;
 
 
 	long long mySkyboxID;
