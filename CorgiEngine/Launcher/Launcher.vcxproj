@@ -66,6 +66,9 @@
     <ProjectReference Include="..\Script\Script.vcxproj">
       <Project>{8ad147c2-cc4c-4692-876d-0c30c63d8f77}</Project>
     </ProjectReference>
+    <ProjectReference Include="..\TClient\TClient.vcxproj">
+      <Project>{df7198ab-1f25-4ce1-baed-6a8ba762a249}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\Utilities\Utilities.vcxproj">
       <Project>{b001d18d-76cd-4735-b19f-601cb1bcab04}</Project>
     </ProjectReference>

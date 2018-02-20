@@ -1,11 +1,10 @@
 #include "stdafx.h"
-#include "..\TClient\Client.h"
 
 class CGameConsole;
 class CEngine;
 class CInGameState;
 class CMainMenuState;
-
+class CClient;
 class CGame
 {
 public:
@@ -23,7 +22,7 @@ private:
 	void InitNetworkClient();
 	void UpdateNetworkClient();
 
-	CClient myNetworkClient;
+	CClient* myNetworkClient;
 	std::thread myNetworkThread;
 
 	CEngine& myGameEngine;

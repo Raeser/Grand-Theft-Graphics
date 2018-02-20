@@ -25,3 +25,32 @@ _Working Build/Assets/Shaders/PS_BloomLuminance.cso
 CorgiEngine/Engine.VC.db
 *.cache
 *.obj
+*.cso
+_Working Build/Assets/Shaders/PS_BloomLuminance.cso
+_Working Build/Assets/Shaders/PS_FullScreenAdd.cso
+_Working Build/Debug/Launcher_Debug_x64.exe
+_Working Build/Debug/Launcher_Debug_x64.exp
+_Working Build/Debug/Launcher_Debug_x64.ilk
+_Working Build/Debug/Launcher_Debug_x64.lib
+_Working Build/Debug/TServer_Debug.exe
+Libs/Collision_Debug_x64.lib
+Libs/Collision_Retail_x64.lib
+Libs/Component_Debug_x64.lib
+Libs/Component_Retail_x64.lib
+Libs/Console_Debug_x64.lib
+Libs/Console_Retail_x64.lib
+Libs/Console_Debug_x64.lib
+Libs/DirectXTK_Desktop_2015_Retail_x64.lib
+Libs/Engine_Debug_x64.lib
+Libs/Engine_Retail_x64.lib
+Libs/Game_Debug_x64.lib
+Libs/Game_Retail_x64.lib
+Libs/Script_Debug_x64.lib
+Libs/Script_Retail_x64.lib
+Libs/TShared_Debug.lib
+Libs/TShared_Release.lib
+Libs/Utilities_Debug_x64.lib
+Libs/Utilities_Retail_x64.lib
+_Working Build/Debug/Launcher_Debug_x64.lib
+_Working Build/Debug/Launcher_Debug_x64.ilk
+_Working Build/Debug/Launcher_Debug_x64.exp
