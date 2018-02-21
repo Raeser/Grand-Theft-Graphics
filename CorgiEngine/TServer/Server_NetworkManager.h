@@ -11,7 +11,7 @@ public:
 	CServer_NetworkManager();
 	~CServer_NetworkManager();
 	bool Init();
-	bool AddClient(sockaddr_in& aSocketAddress);
+	short AddClient(sockaddr_in& aSocketAddress);
 	bool RemoveClient(unsigned short aID);
 	bool SendMessageAll(const CNetMessage* aSerializedMessage);
 	bool SendMessageToTarget(const CNetMessage* aSerializedMessage);

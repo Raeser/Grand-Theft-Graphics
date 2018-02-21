@@ -13,7 +13,6 @@
 
 #include "..\Collision\TriggerSphere.h"
 #include "..\Collision\TriggerBox.h"
-
 #include "..\Engine\DebugDrawer.h"
 #include "..\Launcher\LuaExposedVariableWrapper.h"
 
@@ -104,6 +103,7 @@ void CGameWorld::InitFirstLevel(int aLevelIndex)
 void CGameWorld::Destroy()
 {
 
+	myGameEngine.DisconnectNetwork();
 
 	for (CEntity& ent : myEntityPool)
 	{
@@ -136,6 +136,7 @@ void CGameWorld::Destroy()
 
 void CGameWorld::LoadLevel(const UnityExporter::Level& aLevel)
 {
+
 	Destroy();
 	myCurrentLevelName = aLevel.myLevelName;
 
@@ -169,6 +170,9 @@ void CGameWorld::LoadLevel(const UnityExporter::Level& aLevel)
 	
 	CPostMaster::GetInstance().Subscribe(this, eMessageType::CreateParticleEmitter);
 	CPostMaster::GetInstance().Subscribe(this, eMessageType::DebugDrawWallColliders);
+
+	myGameEngine.InitNetworkClient();
+
 }
 
 bool CGameWorld::LoadLevel(const char* aLevelName)

@@ -81,9 +81,9 @@ eStateStackMessage CInGameState::Update()
 
 	myGameWorld->Update();
 
-	if (InputManager::GetInstance().CheckKeyReleased(KeyCode::Tilde))
+	if (InputManager::GetInstance().CheckKeyReleased(KeyCode::Escape))
 	{
-		PushConsoleState();
+		return eStateStackMessage::PopMainState;
 	}
 
 

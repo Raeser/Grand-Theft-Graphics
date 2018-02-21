@@ -1,5 +1,6 @@
 #include "stdafx.h"
 
+
 #include "SpriteRenderer.h"
 
 #include <wincodec.h>
@@ -27,6 +28,12 @@ CEngine::~CEngine()
 	myScene = nullptr;
 	delete myParticleManager;
 	myParticleManager = nullptr;
+
+	myShouldUpdateNetwork = false;
+	if (myNetworkThread.joinable())
+	{
+		myNetworkThread.join();
+	}
 }
 
 bool CEngine::Init(const CWindowHandler::WindowData & aWindowData)
@@ -79,6 +86,46 @@ bool CEngine::Init(const CWindowHandler::WindowData & aWindowData)
 	
 
 	return true;
+}
+
+
+void CEngine::InitNetworkClient()
+{
+	myNetworkClient = new CClient();
+	myShouldUpdateNetwork = myNetworkClient->Init();
+
+
+	myNetworkThread = std::thread([&]()
+	{
+		UpdateNetworkClient();
+	}
+	);
+}
+
+void CEngine::DisconnectNetwork()
+{
+
+	if (myNetworkClient)
+	{
+		myNetworkClient->Shutdown();
+		delete myNetworkClient;
+		myNetworkClient = nullptr;
+		myShouldUpdateNetwork = false;
+
+		if (myNetworkThread.joinable())
+		{
+			myNetworkThread.join();
+		}
+	}
+
+}
+
+void CEngine::UpdateNetworkClient()
+{
+	while (myShouldUpdateNetwork)
+	{
+		myNetworkClient->Update();
+	}
 }
 
 CCameraInstance* CEngine::GetGlobalCamera()

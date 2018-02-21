@@ -76,12 +76,13 @@ void CGameSettings::PreInit()
 	myMusicVolume = value["volumeMusic"].GetInt();
 
 	InitVolumes();
-
-#ifndef _DEBUG
-	SetIsFullscreen(value["fullscreen"].GetBool());
-#else
+//
+//#ifndef _DEBUG
+//	SetIsFullscreen(value["fullscreen"].GetBool());
+//#else
+//	SetIsFullscreen(false);
+//#endif // !_DEBUG
 	SetIsFullscreen(false);
-#endif // !_DEBUG
 
 	SetSensitivity(value["aimSensitivity"].GetFloat());
 

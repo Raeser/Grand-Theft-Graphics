@@ -6,7 +6,8 @@ enum class EConnectStatus : char
 	Connect,
 	Connection_Established,
 	Disconnect,
-	Ping,
+	Ping_ToServer,
+	Ping_ToClient,
 	count
 };
 

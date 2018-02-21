@@ -10,7 +10,7 @@ public:
 	bool Init();
 	bool SendHandShakeMessage();
 	bool SendChatMessage(std::string& aMsg);
-	bool SendPing();
+	bool PingServer();
 	void Cleanup() override;
 
 	void Update();

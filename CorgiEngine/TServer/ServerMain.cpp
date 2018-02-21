@@ -34,20 +34,28 @@ void CServerMain::UpdateServer()
 		{
 
 		}
-		else if (msgType == ENetMessage::Connect)
+		else if (msgType == ENetMessage::Connection)
 		{
 			CNetMessage_Connect message;
 			message.UnPackMessage(myNetworkManager.GetBuffer(), myRecievedMessageLength);
 			EConnectStatus messageStatus = message.GetConnectStatus();
 			if (messageStatus == EConnectStatus::Connect)
 			{
-				myNetworkManager.AddClient(myClient);
+				short new_id = myNetworkManager.AddClient(myClient);
+
+				CNetMessage_Confirmation confirmation_message;
+				confirmation_message.Init(EConfirmationStatus::Connection_Established, new_id);
+				confirmation_message.SetTargetID(new_id);
+
+				confirmation_message.PackMessage();
+				myNetworkManager.SendMessageToTarget(&confirmation_message);
+
 			}
 			else if (messageStatus == EConnectStatus::Disconnect)
 			{
 				myNetworkManager.RemoveClient(message.GetSenderID());
 			}
-			if (messageStatus == EConnectStatus::Ping)
+			if (messageStatus == EConnectStatus::Ping_ToServer)
 			{
 				int it = 0;
 				for (unsigned short s : myClientsToRemoveIfOld)
