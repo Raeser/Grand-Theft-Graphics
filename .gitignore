@@ -896,3 +896,4 @@ ASALocalRun/
 # MSBuild Binary and Structured Log
 *.binlog
 >>>>>>> 8538b52a1e2f4669837d3b6c3ba48a72808f38c6
+CorgiEngine/Engine.VC.db
